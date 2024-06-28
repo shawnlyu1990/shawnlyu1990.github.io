@@ -6,7 +6,7 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-cotes:
+default:
   name: Shawn Lyu
   twitter:
   url: https://github.com/shawnlyu1990/
