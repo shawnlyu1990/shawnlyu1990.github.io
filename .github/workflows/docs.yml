@@ -32,6 +32,8 @@ jobs:
           node-version: 20
           # 缓存 pnpm 依赖
           cache: pnpm
+
+      - name: install vuepress 
         run: pnpm add -D vuepress@next vue
         run: pnpm add -D @vuepress/bundler-vite@next @vuepress/theme-default@next
 
