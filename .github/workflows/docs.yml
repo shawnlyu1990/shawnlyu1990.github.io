@@ -34,8 +34,7 @@ jobs:
           cache: pnpm
 
       - name: install vuepress
-        run: ｜
-          pnpm add -D vuepress@next vue
+        run: pnpm add -D vuepress@next vue
           pnpm add -D @vuepress/bundler-vite@next @vuepress/theme-default@next
 
       # 运行构建脚本
