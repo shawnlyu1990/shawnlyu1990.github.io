@@ -119,6 +119,9 @@ export default hopeTheme({
         "XiGua",
       ],
     },
+    shiki: {
+      theme: "one-dark-pro",
+    },
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
