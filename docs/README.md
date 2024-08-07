@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Welcome
-# heroImage: logo.png
+heroImage: logo.png
 heroText: 昌霖学长的折腾笔记
 heroFullScreen: true
 tagline: 欢迎来到我的个人知识库

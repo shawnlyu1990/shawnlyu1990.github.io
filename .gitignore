@@ -11,6 +11,7 @@ docs/.vuepress/dist
 .DS_Store
 
 node_modules/
+vuepress-theme-hope/
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
 docs/.vuepress/dist/
