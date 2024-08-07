@@ -1,23 +1,39 @@
-import { hopeTheme } from "vuepress-theme-hope";
+// 官方主题配置说明文档 https://theme-hope.vuejs.press/zh/config/theme/basic.html
 
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { hopeTheme } from "vuepress-theme-hope";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://shawnlyu1990.github.io",
-
+  // 作者信息
   author: {
-    name: "Shawn Lyu",
-    url: "https://mister-hope.com",
+    name: "昌霖学长",
+    //url: "https://mister-hope.com",
+    email: "shawnlyu1990@gmail.com",
   },
-
+  // 网站的 favicon 图标
+  favicon: "favicon.ico",
+  // 字体图标资源链接，支持 'iconify' 'fontawesome' 和 'fontawesome-with-brands' 关键字。
   iconAssets: "fontawesome-with-brands",
-
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
-  docsDir: "src",
+  // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径。
+  logo: "logo.png",
+  // 仓库配置，用于在导航栏中显示仓库链接。
+  repo: "shawnlyu1990/shawnlyu1990.github.io",
+  // 是否在导航栏显示仓库链接。
+  repoDisplay: false,
+  // 文档在仓库中的目录
+  docsDir: "docs",
+  // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序。
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
+  // 最近更新日期
+  lastUpdated: true,
+  // 显示页面贡献者
+  contributors: true,
+  // 深色模式
+  darkmode: "switch",
+  // 是否展示编辑此页链接
+  editLink: false,
 
   blog: {
     medias: {
@@ -67,17 +83,15 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      copyright: "版权所有 © 2024至今 昌霖学长",
+
+      footer: "此站点由 VuePress Theme Hope 支持创建",
 
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "一只人类",
         intro: "/intro.html",
-      },
-
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
@@ -119,9 +133,12 @@ export default hopeTheme({
         "XiGua",
       ],
     },
+
     shiki: {
       theme: "one-dark-pro",
     },
+
+    searchPro: true,
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -157,36 +174,40 @@ export default hopeTheme({
       vPre: true,
 
       // install chart.js before enabling it
-      // chart: true,
+      chart: true,
 
       // insert component easily
 
       // install echarts before enabling it
-      // echarts: true,
+      echarts: true,
 
       // install flowchart.ts before enabling it
-      // flowchart: true,
+      flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+      gfm: true,
 
       // install katex before enabling it
-      // katex: true,
+      katex: true,
 
       // install mathjax-full before enabling it
-      // mathjax: true,
+      mathjax: true,
 
       // install mermaid before enabling it
-      // mermaid: true,
+      mermaid: true,
 
+      // 思维导图，提前安装 markmap-lib, markmap-toolbar 和 markmap-view
+      markmap: true,
+
+      // 交互演示
       // playground: {
       //   presets: ["ts", "vue"],
       // },
 
       // install reveal.js before enabling it
-      // revealJs: {
-      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-      // },
+      revealJs: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
 
       // install @vue/repl before enabling it
       // vuePlayground: true,
