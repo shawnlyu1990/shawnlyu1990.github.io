@@ -1,6 +1,6 @@
 <!-- .vuepress/components/BlogHero.vue -->
 <script setup lang="ts">
-import BlogHero from '../../../vuepress-theme-hope/packages/theme/src/client/modules/blog/components/BlogHero'
+import BlogHero from './modules/blog/components/BlogHero'
 import BingHeroBackground from './presets/BingHeroBackground'
 import HitokotoBlogHero from './presets/HitokotoBlogHero'
 </script>
