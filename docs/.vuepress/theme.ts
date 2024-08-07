@@ -69,11 +69,12 @@ export default hopeTheme(
         //Whatsapp: "https://example.com",
         //Youtube: "https://example.com",
         //Zhihu: "https://example.com",
-        VuePressThemeHope: {
-          icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-          link: "https://theme-hope.vuejs.press",
-        },
+        //VuePressThemeHope: {
+        //  icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+        //  link: "https://theme-hope.vuejs.press",
+        //},
       },
+      articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag"],
     },
 
     locales: {
@@ -84,7 +85,7 @@ export default hopeTheme(
         // sidebar
         sidebar: zhSidebar,
 
-        copyright: "版权所有 © 2024至今 昌霖学长",
+        copyright: "版权所有 © 2024 昌霖学长",
 
         footer: "此站点由 VuePress Theme Hope 支持创建",
 
@@ -100,7 +101,6 @@ export default hopeTheme(
     encrypt: {
       config: {
         "/demo/encrypt.html": ["1234"],
-        "/zh/demo/encrypt.html": ["1234"],
       },
     },
 

@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: Welcome
+title: 主页
 heroImage: logo.png
 heroText: 昌霖学长的折腾笔记
 heroFullScreen: true
