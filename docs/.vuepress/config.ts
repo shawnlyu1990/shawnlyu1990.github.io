@@ -1,7 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
-
 import theme from "./theme.js";
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { hopeTheme } from "vuepress-theme-hope";
 
 const __dirname = getDirname(import.meta.url);
 
@@ -18,12 +19,19 @@ export default defineUserConfig({
 
   theme,
 
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
+  ],
+
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
       "./components/BlogHero.vue",
     ),
   },
+
 
   // Enable it with pwa
   // shouldPrefetch: false,
