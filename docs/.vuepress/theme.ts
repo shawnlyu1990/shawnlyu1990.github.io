@@ -14,11 +14,11 @@ export default hopeTheme(
       email: "shawnlyu1990@gmail.com",
     },
     // 网站的 favicon 图标
-    favicon: "favicon.ico",
+    favicon: "/assets/icon/favicon.ico",
     // 字体图标资源链接，支持 'iconify' 'fontawesome' 和 'fontawesome-with-brands' 关键字。
     iconAssets: "fontawesome-with-brands",
     // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径。
-    logo: "logo.png",
+    logo: "/assets/icon/logo.png",
     // 仓库配置，用于在导航栏中显示仓库链接。
     repo: "shawnlyu1990/shawnlyu1990.github.io",
     // 是否在导航栏显示仓库链接。
@@ -26,7 +26,7 @@ export default hopeTheme(
     // 文档在仓库中的目录
     docsDir: "docs",
     // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序。
-    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
+    pageInfo: ["Original", "Author", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
     // 最近更新日期
     lastUpdated: true,
     // 显示页面贡献者
@@ -74,7 +74,7 @@ export default hopeTheme(
         //  link: "https://theme-hope.vuejs.press",
         //},
       },
-      articleInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag"],
+      articleInfo: ["Original", "Author", "Date", "PageView", "Category", "Tag"],
     },
 
     locales: {
@@ -136,10 +136,17 @@ export default hopeTheme(
       },
 
       shiki: {
-        theme: "one-dark-pro",
+        themes: {
+          light: "one-light",
+          dark: "one-dark-pro",
+        },
       },
 
       searchPro: true,
+
+      copyright: {
+        global: true,
+      },
 
       // These features are enabled for demo, only preserve features you need here
       mdEnhance: {

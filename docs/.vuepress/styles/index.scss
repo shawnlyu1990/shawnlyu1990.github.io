@@ -1,7 +1,16 @@
 // place your custom styles here
 // 代码块标签颜色
 #app {
-    --code-tabs-c-bg: #0000000;
+  html[data-theme="dark"] & {
+    --code-tabs-c-bg: #0c1e34;
     --code-c-bg: #282c34;
+    --code-tabs-c-hover: #282c34;
     //--code-tabs-c-text: #cccccc;
   }
+  html[data-theme="light"] & {
+    --code-tabs-c-bg: #d8e9f6;
+    --code-c-bg: #fafafa;
+    --code-tabs-c-hover: #fafafa;
+    //--code-tabs-c-text: #0a0a0a;
+  }
+}
