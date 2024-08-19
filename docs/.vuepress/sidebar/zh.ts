@@ -21,7 +21,18 @@ export const zhSidebar = sidebar({
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false
       expanded: false,
-      children: "structure",
+      children: [
+        {
+          text: "PostgreSQL",
+          icon: "fas fa-database",
+          prefix: "PostgreSQL/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+      ],
     },
     {
       text: "Markdown",
@@ -41,7 +52,38 @@ export const zhSidebar = sidebar({
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false
       expanded: false,
-      children: "structure",
+      children: [
+        {
+          text: "路由交换",
+          icon: "fas fa-network-wired",
+          prefix: "路由交换/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "软路由",
+          icon: "fas fa-route",
+          prefix: "软路由/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "网络协议",
+          icon: "fas fa-ethernet",
+          prefix: "网络协议/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+      ],
     },
     {
       text: "云和虚拟化",
