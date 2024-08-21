@@ -302,7 +302,7 @@ cp -r /usr/share/zabbix /var/www/html/
 
     ![zabbix welcome](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/01-welcome_to_zabbix.png)
 
-2. 点击 <kbd>Next step</kbd>，此页为 php 的参数检测，如果不通过，就修改到通过为止，在 `/etc/php.ini` 那里修改，记得改完要重启 http 服务
+2. 点击 <kbd class="button">Next step</kbd>，此页为 php 的参数检测，如果不通过，就修改到通过为止，在 `/etc/php.ini` 那里修改，记得改完要重启 http 服务
 
     ![check of pre-requisites](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/02-check_for_pre_requisites.png)
 
@@ -323,15 +323,15 @@ cp -r /usr/share/zabbix /var/www/html/
     [root@localhost ~]# systemctl restart httpd
     ```
 
-4. 点击 <kbd>Back</kbd> ，重新点击下一步检查
+4. 点击 <kbd class="button">Back</kbd> ，重新点击下一步检查
 
     ![检查成功](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/03-check_pass.png)
 
-5. 点击 <kbd>Next step</kbd>，mysql 数据库检测，用户名和密码填写刚才创建的 `zabbix`
+5. 点击 <kbd class="button">Next step</kbd>，mysql 数据库检测，用户名和密码填写刚才创建的 `zabbix`
 
     ![数据库连通性检查](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/04-configure_db_connection.png)
 
-6. 点击 <kbd>Next step</kbd>，此页保持默认
+6. 点击 <kbd class="button">Next step</kbd>，此页保持默认
 
     ![Zabbix服务器配置](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/05-zabbix_server_detail.png)
 
@@ -339,7 +339,7 @@ cp -r /usr/share/zabbix /var/www/html/
 
     ![信息总览](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/06-pre_installation_summary.png)
 
-8. 安装完毕，点击 <kbd>Finish</kbd> 即可完成安装。
+8. 安装完毕，点击 <kbd class="button">Finish</kbd> 即可完成安装。
 
     ![安装完毕](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/07-install_finish.png)
 
