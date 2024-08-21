@@ -49,7 +49,7 @@ select case when coalesce(name,'') = '' then '姓名为空' else name end from s
 ```
 
 **原因解释**：
-`COALESCE` 函数是返回参数中的第一个非 NULL 的值，它要求参数中至少有一个是非 NULL 的，如果参数都是 ULL 会报错。
+`COALESCE` 函数是返回参数中的第一个非 NULL 的值，它要求参数中至少有一个是非 NULL 的，如果参数都是 NULL 会报错。
 
 ```sql
 select COALESCE(null,null); //报错
