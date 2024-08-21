@@ -323,7 +323,7 @@ cp -r /usr/share/zabbix /var/www/html/
     [root@localhost ~]# systemctl restart httpd
     ```
 
-4. 点击 <kbd class="button">Back</kbd> ，重新点击下一步检查
+4. 点击 <kbd class="button">Back</kbd> ，重新点击 <kbd class="button">Next step</kbd> 检查
 
     ![检查成功](/assets/postsimages/2017-09-04-CentOS7部署服务-Zabbix3.2/03-check_pass.png)
 

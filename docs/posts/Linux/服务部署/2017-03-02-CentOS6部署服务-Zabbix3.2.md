@@ -334,7 +334,7 @@ cp -r /usr/share/zabbix /var/www/html/
     [root@localhost ~]# service httpd restart
     ```
 
-4. 点击 <kbd class="button">Back</kbd> 按钮，重新点击 <kbd>Next step</kbd> 检查
+4. 点击 <kbd class="button">Back</kbd> 按钮，重新点击 <kbd class="button">Next step</kbd> 检查
 
     ![检查成功](/assets/postsimages/2017-03-02-CentOS6部署服务-Zabbix3.2/03-check_pass.png)
 
