@@ -2,6 +2,8 @@
 title: Linux
 index: false
 icon: fab fa-linux
+article: false
+timeline: false
 category:
   - Linux
 ---

@@ -2,6 +2,8 @@
 title: 服务部署
 index: false
 icon: fab fa-linux
+article: false
+timeline: false
 category:
   - Linux
 ---

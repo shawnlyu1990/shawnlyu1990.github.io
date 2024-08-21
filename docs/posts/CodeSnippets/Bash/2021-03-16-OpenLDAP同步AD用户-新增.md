@@ -29,7 +29,7 @@ sticky: false
 # 星标（true/false/数字），当填入数字时，数字越大，排名越靠前。
 star: false
 # 是否将该文章添加至文章列表中。
-artical: true
+article: true
 # 是否将该文章添加至时间线中。
 timeline: true
 # 预览图。请填入绝对路径。图片路径位于 .vuepress/public 下
@@ -128,4 +128,3 @@ done</root/OpenLdapShell/Tmp_ldapgroup_utf8.ldif
 > utf8ldif.php 的内容可以从此处获得
 >
 > <https://blog.csdn.net/yes_is_ok/article/details/103088226>
-

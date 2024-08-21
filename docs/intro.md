@@ -1,6 +1,8 @@
 ---
-icon: circle-info
+icon: user
 cover: /assets/images/cover3.jpg
+article: false
+timeline: false
 ---
 
 # 介绍页

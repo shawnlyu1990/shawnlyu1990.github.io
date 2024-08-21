@@ -2,6 +2,8 @@
 title: 路由交换
 index: false
 icon: fas fa-network
+article: false
+timeline: false
 category:
   - 网络
 ---

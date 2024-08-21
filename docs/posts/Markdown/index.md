@@ -2,6 +2,8 @@
 title: Markdown
 index: false
 icon: fab fa-markdown
+article: false
+timeline: false
 category:
   - Markdown
 ---

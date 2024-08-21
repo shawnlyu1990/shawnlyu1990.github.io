@@ -2,6 +2,8 @@
 title: 云和虚拟化
 index: false
 icon: fas fa-cloud
+article: false
+timeline: false
 category:
   - VM
   - Cloud

@@ -2,6 +2,8 @@
 title: 软路由
 index: false
 icon: fas fa-route
+article: false
+timeline: false
 category:
   - 网络
 ---
