@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /assets/icon/blackhole.png
-heroText: 弥勒的风穴
+heroText: 弥勒法师的风穴
 heroFullScreen: true
 tagline: 「TECH OTAKUS SAVE THE WORLD」—— miHoYo
 # projects:
