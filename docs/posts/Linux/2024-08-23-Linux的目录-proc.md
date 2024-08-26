@@ -122,7 +122,7 @@ lrwxrwxrwx 1 root root 0 Jun  4 17:08 /proc/thread-self -> 32265/task/32265
 
 在 SELinux 中，这个文件主要是用于得到当前进程的安全上下文。
 
-在 2.6.11 的内核之前，这个文件不能用来设置安全上下文（写操作是不允许的），因为 SELinux 限制了进程安全转换为 EXECVE(2) （参考下方的[/proc/pid/attr/exec](#/proc/pid/attr/exec)）。 
+在 2.6.11 的内核之前，这个文件不能用来设置安全上下文（写操作是不允许的），因为 SELinux 限制了进程安全转换为 EXECVE(2) （参考下方的[/proc/pid/attr/exec](#1)）。
 
 从 2.6.11 之后，SELinux 取消了这个限制。如果策略允许，SELinux 通过向这个文件写入来支持设置行为，虽然这个操作仅仅只是为了维护老的上下文和新的上下文的隔离。
 
@@ -130,7 +130,7 @@ lrwxrwxrwx 1 root root 0 Jun  4 17:08 /proc/thread-self -> 32265/task/32265
 
 从 2.6.28 之后，SELinux 取消了这个限制，开始支持多线程的设置方法。但是需要满足一定的条件，新的安全上下文需要绑定在老的上下文上，并且这个绑定关系是设置在策略当中的，同时新的安全上下文是老的安全上下文的一个子集。
 
-#### /proc/pid/attr/exec
+#### [/proc/pid/attr/exec](#1)
 
 这个文件代表给进程的 execve 的属性。
 
