@@ -6,7 +6,7 @@ shortTitle: VMware Fusion 修改虚拟网卡的 IP 地址段
 # 当前页面内容描述。
 description: macOS 系统中可以使用 VMware Fusion 软件部署虚拟机，但 VMware Fusion 修改虚拟网卡的 IP 地址配置的时候不像 Windows 系统中的 VMware Workstation 那么方便，需要通过命令行编辑配置文件，这里对修改方法进行一下记录。
 # 当前页面的图标，建议填写
-icon: fas fa-clone
+icon: VMware-Workstation
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

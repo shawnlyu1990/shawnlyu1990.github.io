@@ -1,7 +1,7 @@
 ---
 title: Linux
 index: false
-icon: fab fa-linux
+icon: Linux
 article: false
 timeline: false
 category:

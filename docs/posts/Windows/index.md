@@ -1,7 +1,7 @@
 ---
 title: Windows
 index: false
-icon: fab fa-windows
+icon: Windows
 article: false
 timeline: false
 category:

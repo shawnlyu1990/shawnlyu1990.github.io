@@ -1,7 +1,7 @@
 ---
 title: 云和虚拟化
 index: false
-icon: fas fa-cloud
+icon: Cloud
 article: false
 timeline: false
 category:

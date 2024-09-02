@@ -1,7 +1,7 @@
 ---
 title: Bash
 index: false
-icon: fab fa-terminal
+icon: Terminal
 article: false
 timeline: false
 category:

@@ -6,7 +6,7 @@ shortTitle: Windows Server 修改密码有效期策略
 # 当前页面内容描述。
 description: 自己用 Windows Server 搭建测试环境的时候，一般不需要每隔 N 天改一下密码，这里记录一下在 Windows Server 中和 AD 服务器中修改密码有效期策略的方法。
 # 当前页面的图标，建议填写
-icon: fab fa-windows
+icon: Windows
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

@@ -1,7 +1,7 @@
 ---
 title: 代码片段
 index: false
-icon: fas fa-laptop-code
+icon: code
 article: false
 timeline: false
 category:

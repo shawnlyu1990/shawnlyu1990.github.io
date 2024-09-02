@@ -16,7 +16,10 @@ export default hopeTheme(
     // 网站的 favicon 图标
     favicon: "/assets/icon/favicon.ico",
     // 字体图标资源链接，支持 'iconify' 'fontawesome' 和 'fontawesome-with-brands' 关键字。
-    iconAssets: "fontawesome-with-brands",
+    //iconAssets: "fontawesome-with-brands",
+    iconAssets: "/assets/iconfont/iconfont.css",
+    // 如果使用iconfont则需要开启此字段
+    iconPrefix: "iconfont icon-",
     // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径。
     logo: "/assets/icon/blackhole.png",
     // 仓库配置，用于在导航栏中显示仓库链接。

@@ -6,7 +6,7 @@ shortTitle: Novell Netware 802.3 RAW 以太帧
 # 当前页面内容描述。
 description: Novell Netware 802.3 RAW 以太帧
 # 当前页面的图标，建议填写
-icon: fas fa-ethernet
+icon: Network-Protocol
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

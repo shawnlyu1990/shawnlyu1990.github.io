@@ -1,7 +1,7 @@
 ---
 title: 网络
 index: false
-icon: fas fa-globe
+icon: Global-Network
 article: false
 timeline: false
 category:

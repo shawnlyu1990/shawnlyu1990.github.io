@@ -1,7 +1,7 @@
 ---
 title: 标准规范
 index: false
-icon: fas fa-ruler-combined
+icon: Rule
 article: false
 timeline: false
 category:

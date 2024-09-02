@@ -1,7 +1,7 @@
 ---
 title: FAQ
 index: false
-icon: fas fa-circle-question
+icon: Question
 article: false
 timeline: false
 category:

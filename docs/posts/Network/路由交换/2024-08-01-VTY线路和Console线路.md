@@ -6,7 +6,7 @@ shortTitle: VTY 线路和 Console 线路
 # 当前页面内容描述。
 description: 在网络设备的管理和维护中，VTY（Virtual Teletype） 线路和 Console（控制台） 线路是两种重要的访问方式。它们在功能、用途、安全性等方面有显著的不同。本文将深入探讨这两种线路的特点、工作原理、配置方法、应用场景以及它们在网络管理中的具体作用。
 # 当前页面的图标，建议填写
-icon: fas fa-ethernet
+icon: Router
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

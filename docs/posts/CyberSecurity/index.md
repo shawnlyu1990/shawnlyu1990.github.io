@@ -1,7 +1,7 @@
 ---
 title: 网络安全
 index: false
-icon: fas fa-shield-halved
+icon: CyberSecurity
 article: false
 timeline: false
 category:

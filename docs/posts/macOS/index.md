@@ -1,7 +1,7 @@
 ---
 title: macOS
 index: false
-icon: fab fa-apple
+icon: macOS
 article: false
 timeline: false
 category:

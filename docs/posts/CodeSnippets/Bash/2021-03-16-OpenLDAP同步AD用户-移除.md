@@ -6,7 +6,7 @@ shortTitle: OpenLDAP 同步 AD 用户（移除）
 # 当前页面内容描述。
 description: 当有用户从 AD 中被移除时，在 OpenLDAP 中同步移除该用户。
 # 当前页面的图标，建议填写
-icon: terminal
+icon: Terminal
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

@@ -1,7 +1,7 @@
 ---
 title: 服务部署
 index: false
-icon: fab fa-linux
+icon: Environment-Deploy
 article: false
 timeline: false
 category:

@@ -2,10 +2,9 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
   "/": [
-    "",
     {
       text: "网络安全",
-      icon: "fas fa-shield-halved",
+      icon: "CyberSecurity",
       prefix: "posts/CyberSecurity/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -15,7 +14,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "数据库",
-      icon: "fas fa-database",
+      icon: "Database",
       prefix: "posts/Database/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -24,7 +23,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "PostgreSQL",
-          icon: "fas fa-database",
+          icon: "PostgreSQL",
           prefix: "PostgreSQL/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -36,7 +35,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "Markdown",
-      icon: "fab fa-markdown",
+      icon: "Markdown",
       prefix: "posts/Markdown/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -46,7 +45,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "网络",
-      icon: "fas fa-globe",
+      icon: "Global-Network",
       prefix: "posts/Network/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -55,7 +54,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "路由交换",
-          icon: "fas fa-network-wired",
+          icon: "Network-Wired",
           prefix: "路由交换/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -65,7 +64,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "软路由",
-          icon: "fas fa-route",
+          icon: "WiFi-Router",
           prefix: "软路由/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -75,7 +74,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "网络协议",
-          icon: "fas fa-ethernet",
+          icon: "Network-Protocol",
           prefix: "网络协议/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -87,7 +86,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "云和虚拟化",
-      icon: "fas fa-cloud",
+      icon: "Cloud",
       prefix: "posts/CloudAndVMs/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -96,7 +95,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "VMware",
-          icon: "fas fa-clone",
+          icon: "VM",
           prefix: "VMware/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -108,7 +107,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "macOS",
-      icon: "fab fa-apple",
+      icon: "macOS",
       prefix: "posts/macOS/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -118,7 +117,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "Windows",
-      icon: "fab fa-windows",
+      icon: "Windows",
       prefix: "posts/Windows/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -128,7 +127,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "Linux",
-      icon: "fab fa-linux",
+      icon: "Linux",
       prefix: "posts/Linux/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -137,7 +136,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "标准规范",
-          icon: "fas fa-ruler-combined",
+          icon: "Rule",
           prefix: "标准规范/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -147,7 +146,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "服务部署",
-          icon: "fas fa-server",
+          icon: "Environment-Deploy",
           prefix: "服务部署/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -157,7 +156,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "FAQ",
-          icon: "fas fa-circle-question",
+          icon: "Question",
           prefix: "FAQ/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -169,7 +168,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "代码片段",
-      icon: "laptop-code",
+      icon: "code",
       prefix: "posts/CodeSnippets/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -178,7 +177,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "Bash",
-          icon: "terminal",
+          icon: "Terminal",
           prefix: "Bash/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -188,7 +187,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "Python",
-          icon: "fab fa-python",
+          icon: "Python",
           prefix: "Python/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -197,6 +196,16 @@ export const zhSidebar = sidebar({
           children: "structure",
         },
       ],
+    },
+    {
+      text: "未分类",
+      icon: "uncatelogued",
+      prefix: "posts/未分类/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
     },
     "intro",
     {

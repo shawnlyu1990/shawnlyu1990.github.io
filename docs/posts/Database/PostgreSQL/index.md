@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL
 index: false
-icon: fas fa-database
+icon: PostgreSQL
 article: false
 timeline: false
 category:

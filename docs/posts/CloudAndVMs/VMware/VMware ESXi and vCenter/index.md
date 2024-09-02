@@ -1,7 +1,7 @@
 ---
 title: VMware ESXi & vCenter
 index: false
-icon: fas fa-clone
+icon: VMwarevSphere
 article: false
 timeline: false
 category:

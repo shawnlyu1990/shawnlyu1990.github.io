@@ -1,7 +1,7 @@
 ---
 title: 路由交换
 index: false
-icon: fas fa-network
+icon: Network-Wired
 article: false
 timeline: false
 category:

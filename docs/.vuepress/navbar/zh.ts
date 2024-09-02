@@ -9,7 +9,7 @@ export const zhNavbar = navbar([
   //  },
   {
     text: "所有文章",
-    icon: "file-lines",
+    icon: "File",
     link: "/article/",
   },
   "/posts/CyberSecurity/",
@@ -23,7 +23,7 @@ export const zhNavbar = navbar([
   "/posts/CodeSnippets/",
   {
     text: "关于我",
-    icon: "user",
+    icon: "Personal-Profile",
     link: "/intro.html",
   },
 ]);

@@ -6,7 +6,7 @@ shortTitle: CentOS 6 部署服务 - Zabbix
 # 当前页面内容描述。
 description: Zabbix是一款能够监控各种网络参数以及服务器健康性和完整性的软件。Zabbix使用灵活的通知机制，允许用户为几乎任何事件配置基于邮件的告警。这样可以快速反馈服务器的问题。基于已存储的数据，Zabbix提供了出色的报告和数据可视化功能。
 # 当前页面的图标，建议填写
-icon: fab fa-centos
+icon: Zabbix
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

@@ -6,7 +6,7 @@ shortTitle: PgSQL 修改数据目录的方法
 # 当前页面内容描述。
 description: 记录修改 PostgreSQL 数据库的数据目录位置的一种方法
 # 当前页面的图标，建议填写
-icon: fas fa-database
+icon: PostgreSQL
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

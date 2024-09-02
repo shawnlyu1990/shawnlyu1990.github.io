@@ -1,7 +1,7 @@
 ---
 title: VMware Desktop Hypervisor
 index: false
-icon: fas fa-clone
+icon: VMware-Workstation
 article: false
 timeline: false
 category:

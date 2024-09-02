@@ -6,7 +6,7 @@ shortTitle: OpenLDAP 同步 AD 用户（移动 OU）
 # 当前页面内容描述。
 description: 当 AD 中有用户移动了组织结构（OU）时，可以使用此脚本进行同步。
 # 当前页面的图标，建议填写
-icon: terminal
+icon: Terminal
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

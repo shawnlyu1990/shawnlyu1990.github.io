@@ -1,7 +1,7 @@
 ---
 title: Python
 index: false
-icon: fab fa-python
+icon: Python
 article: false
 timeline: false
 category:

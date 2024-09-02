@@ -6,7 +6,7 @@ shortTitle: OpenLDAP 导入 AD 组织架构
 # 当前页面内容描述。
 description: 将 AD 的组织结构导入 OpenLDAP，一般用于 OpenLDAP 刚刚搭建完毕，第一次向 OpenLDAP 同步 AD 的用户。
 # 当前页面的图标，建议填写
-icon: terminal
+icon: Terminal
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

@@ -1,7 +1,7 @@
 ---
 title: Markdown
 index: false
-icon: fab fa-markdown
+icon: Markdown
 article: false
 timeline: false
 category:

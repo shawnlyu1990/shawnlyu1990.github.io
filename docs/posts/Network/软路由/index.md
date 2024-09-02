@@ -1,7 +1,7 @@
 ---
 title: 软路由
 index: false
-icon: fas fa-route
+icon: WiFi-Router
 article: false
 timeline: false
 category:

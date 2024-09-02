@@ -1,7 +1,7 @@
 ---
 title: 数据库
 index: false
-icon: fas fa-database
+icon: Database
 article: false
 timeline: false
 category:

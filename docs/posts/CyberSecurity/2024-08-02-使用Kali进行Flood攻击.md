@@ -6,7 +6,7 @@ shortTitle: 使用 Kali 进行 Flood 攻击
 # 当前页面内容描述。
 description: 使用 Kali 进行 Flood 攻击
 # 当前页面的图标，建议填写
-icon: fas fa-user-secret
+icon: Kali
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创
