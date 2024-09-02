@@ -3,6 +3,16 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     {
+      text: "IT管理",
+      icon: "Flow",
+      prefix: "posts/IT管理/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
       text: "网络安全",
       icon: "CyberSecurity",
       prefix: "posts/CyberSecurity/",
@@ -80,7 +90,18 @@ export const zhSidebar = sidebar({
           collapsible: true,
           // 设置分组是否默认展开，默认值是 false
           expanded: false,
-          children: "structure",
+          children: [
+            {
+              text: "数据链路层",
+              icon: "Network-Protocol",
+              prefix: "数据链路层/",
+              // 设置分组是否可以折叠，默认值是 false
+              collapsible: true,
+              // 设置分组是否默认展开，默认值是 false
+              expanded: false,
+              children: "structure",
+            },
+          ],
         },
       ],
     },
@@ -101,7 +122,28 @@ export const zhSidebar = sidebar({
           collapsible: true,
           // 设置分组是否默认展开，默认值是 false
           expanded: false,
-          children: "structure",
+          children: [
+            {
+              text: "VMware Desktop Hypervisor",
+              icon: "VMware-Workstation",
+              prefix: "VMware Desktop Hypervisor/",
+              // 设置分组是否可以折叠，默认值是 false
+              collapsible: true,
+              // 设置分组是否默认展开，默认值是 false
+              expanded: false,
+              children: "structure",
+            },
+            {
+              text: "VMware ESXi and vCenter",
+              icon: "VMwarevSphere",
+              prefix: "VMware ESXi and vCenter/",
+              // 设置分组是否可以折叠，默认值是 false
+              collapsible: true,
+              // 设置分组是否默认展开，默认值是 false
+              expanded: false,
+              children: "structure",
+            },
+          ],
         },
       ],
     },
@@ -208,10 +250,5 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
   ],
 });

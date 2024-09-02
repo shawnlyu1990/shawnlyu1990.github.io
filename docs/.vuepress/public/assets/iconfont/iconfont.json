@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "41700707",
+      "name": "Home-color",
+      "font_class": "Home-color",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "41700706",
+      "name": "Home",
+      "font_class": "Home",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "41700705",
+      "name": "Home-chimney",
+      "font_class": "Home-chimney",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
       "icon_id": "41681194",
       "name": "Markdown",
       "font_class": "Markdown",

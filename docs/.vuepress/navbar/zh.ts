@@ -12,6 +12,7 @@ export const zhNavbar = navbar([
     icon: "File",
     link: "/article/",
   },
+  "/posts/IT管理/",
   "/posts/CyberSecurity/",
   "/posts/Database/",
   "/posts/Markdown/",

@@ -1,5 +1,5 @@
 ---
-icon: user
+icon: Personal-Profile
 cover: /assets/images/cover3.jpg
 article: false
 timeline: false

@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: Home
 title: 主页
 heroImage: /assets/icon/blackhole.png
 heroText: 弥勒法师的风穴
