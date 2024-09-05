@@ -21,7 +21,7 @@ export default hopeTheme(
     // 如果使用iconfont则需要开启此字段
     iconPrefix: "iconfont icon-",
     // 导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径。
-    logo: "/assets/icon/blackhole.png",
+    logo: "/assets/icon/apple-memojy.png",
     // 仓库配置，用于在导航栏中显示仓库链接。
     repo: "shawnlyu1990/shawnlyu1990.github.io",
     // 是否在导航栏显示仓库链接。
