@@ -118,9 +118,25 @@ export default hopeTheme(
       // Install @waline/client before enabling it
       // Note: This is for testing ONLY!
       // You MUST generate and use your own comment service in production.
+      comment: {
+        provider: "Waline",
+        serverURL: "https://comment-waline-2u7kfj9xc-shawnlyu1990s-projects.vercel.app/",
+      },
+
+      // Giscus comment
       // comment: {
-      //   provider: "Waline",
-      //   serverURL: "https://waline-comment.vuejs.press",
+      //   provider: "Giscus",
+      //   repo: "shawnlyu1990/shawnlyu1990.github.io",
+      //   repoId: "R_kgDOMfaFVg",
+      //   category: "Announcements",
+      //   categoryId: "DIC_kwDOMfaFVs4CiNjo",
+      //   mapping: "title",
+      //   strict: false,
+      //   lazyLoading: true,
+      //   reactionsEnabled: true,
+      //   inputPosition: "top",
+      //   lightTheme: "light",
+      //   darkTheme: "dark",
       // },
 
       components: {
