@@ -12,8 +12,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      //title: "昌霖学长的折腾笔记",
-      title: "归墟之下",
+      title: "知识杂货铺",
       description: "简单随意的记录自己的个人经验和学习笔记，并会间歇性的对已有知识进行整理",
     },
   },

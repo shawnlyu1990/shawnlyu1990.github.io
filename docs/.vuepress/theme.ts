@@ -118,11 +118,11 @@ export default hopeTheme(
       // Install @waline/client before enabling it
       // Note: This is for testing ONLY!
       // You MUST generate and use your own comment service in production.
-      comment: {
-        provider: "Waline",
-        serverURL: "https://comment-waline-9e4n3g3g5-shawnlyu1990s-projects.vercel.app/",
-        //comment: false,
-      },
+      // comment: {
+      //   provider: "Waline",
+      //   serverURL: "https://comment-waline-9e4n3g3g5-shawnlyu1990s-projects.vercel.app/",
+      //   //comment: false,
+      // },
 
       // Giscus comment
       // comment: {

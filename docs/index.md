@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: Home
 title: 主页
-heroImage: /assets/icon/blackhole.png
+heroImage: /assets/icon/坐着工作的胖男孩.png
 heroText: 技术宅拯救世界
 heroFullScreen: true
-tagline: 「TECH OTAKUS SAVE THE WORLD」—— miHoYo
+tagline: TECH OTAKUS SAVE THE WORLD
 # projects:
 #   - icon: project
 #     name: 项目名称
