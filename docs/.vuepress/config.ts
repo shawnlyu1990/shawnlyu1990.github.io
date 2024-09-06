@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 
 const __dirname = getDirname(import.meta.url);
 
@@ -23,10 +22,6 @@ export default defineUserConfig({
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     }),
-    googleAnalyticsPlugin({
-      // 配置项
-      id: 'G-M1M6MQSKD7',
-    }),
   ],
 
   alias: {
@@ -36,6 +31,15 @@ export default defineUserConfig({
     ),
   },
 
+  head: [
+    // 添加 Google Analysis 统计代码
+    ['script', { src: "https://www.googletagmanager.com/gtag/js?id=G-M1M6MQSKD7", async: true }],
+    ['script', {},
+      " window.dataLayer = window.dataLayer || [];\
+                function gtag(){dataLayer.push(arguments);}\
+                gtag('js', new Date());\
+                gtag('config', 'G-M1M6MQSKD7');"],
+  ],
 
   // Enable it with pwa
   // shouldPrefetch: false,
