@@ -4,6 +4,7 @@ index: false
 icon: VMwarevSphere
 article: false
 timeline: false
+comment: false
 category:
   - VMware
   - ESXi

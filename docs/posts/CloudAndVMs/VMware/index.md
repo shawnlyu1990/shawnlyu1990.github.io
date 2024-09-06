@@ -4,6 +4,7 @@ index: false
 icon: vmware
 article: false
 timeline: false
+comment: false
 category:
   - VM
   - Cloud

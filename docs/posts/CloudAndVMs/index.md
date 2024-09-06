@@ -4,6 +4,7 @@ index: false
 icon: Cloud
 article: false
 timeline: false
+comment: false
 category:
   - VM
   - Cloud

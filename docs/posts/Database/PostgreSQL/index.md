@@ -4,6 +4,7 @@ index: false
 icon: PostgreSQL
 article: false
 timeline: false
+comment: false
 category:
   - 数据库
 ---

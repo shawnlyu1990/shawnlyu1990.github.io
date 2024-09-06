@@ -4,6 +4,7 @@ index: false
 icon: Markdown
 article: false
 timeline: false
+comment: false
 category:
   - Markdown
 ---

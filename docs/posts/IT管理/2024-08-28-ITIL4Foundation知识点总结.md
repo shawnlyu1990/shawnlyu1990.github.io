@@ -29,6 +29,8 @@ star: false
 article: true
 # 是否将该文章添加至时间线中。
 timeline: true
+# 是否开启评论
+comment: false
 # 预览图。请填入绝对路径。图片路径位于 .vuepress/public 下
 # cover: /assets/images/cover1.jpg
 # 设置横幅图片 (宽屏分享图)，请填入绝对路径。

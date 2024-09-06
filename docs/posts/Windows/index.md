@@ -4,6 +4,7 @@ index: false
 icon: Windows
 article: false
 timeline: false
+comment: false
 category:
   - windows
 ---

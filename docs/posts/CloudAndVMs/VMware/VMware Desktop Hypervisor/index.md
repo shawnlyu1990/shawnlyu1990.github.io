@@ -4,6 +4,7 @@ index: false
 icon: VMware-Workstation
 article: false
 timeline: false
+comment: false
 category:
   - VMware Workstation
   - VMware Fusion

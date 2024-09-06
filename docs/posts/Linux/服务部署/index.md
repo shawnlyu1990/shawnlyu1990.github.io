@@ -4,6 +4,7 @@ index: false
 icon: Environment-Deploy
 article: false
 timeline: false
+comment: false
 category:
   - Linux
 ---

@@ -4,6 +4,7 @@ index: false
 icon: macOS
 article: false
 timeline: false
+comment: false
 category:
   - macOS
 ---

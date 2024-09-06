@@ -4,6 +4,7 @@ index: false
 icon: code
 article: false
 timeline: false
+comment: false
 category:
   - 代码片段
   - Code Snippets

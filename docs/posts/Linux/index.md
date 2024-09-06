@@ -4,6 +4,7 @@ index: false
 icon: Linux
 article: false
 timeline: false
+comment: false
 category:
   - Linux
 ---
