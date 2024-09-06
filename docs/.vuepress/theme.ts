@@ -121,7 +121,7 @@ export default hopeTheme(
       comment: {
         provider: "Waline",
         serverURL: "https://comment-waline-taupe.vercel.app",
-        //comment: false,
+        comment: false,
       },
 
       // Giscus comment
