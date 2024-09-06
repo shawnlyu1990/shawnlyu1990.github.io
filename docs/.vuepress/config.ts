@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
-import { hopeTheme } from "vuepress-theme-hope";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 
 const __dirname = getDirname(import.meta.url);
 
@@ -22,6 +22,10 @@ export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
+    }),
+    googleAnalyticsPlugin({
+      // 配置项
+      id: 'G-M1M6MQSKD7',
     }),
   ],
 
