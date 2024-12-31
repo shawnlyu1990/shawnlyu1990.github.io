@@ -39,6 +39,21 @@ export default defineUserConfig({
                 function gtag(){dataLayer.push(arguments);}\
                 gtag('js', new Date());\
                 gtag('config', 'G-M1M6MQSKD7');"],
+
+    // 导入 "Noto Sans SC"（思源黑体-简中）、"Noto Sans TC"（思源黑体-台湾繁中）、"Noto Sans HK"（思源黑体-香港繁中）
+    // "Noto Sans JP"（思源黑体-简中）、"Noto Sans KR"（思源黑体-简中）、"Noto Sans"、"Noto Sans Display"、"Noto Sans Symbols"（图形符号）
+    ['link', { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    [
+      'link',
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }
+    ],
+    [
+      'link',
+      {
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+Symbols:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+        rel: "stylesheet",
+      }
+    ],
   ],
 
   // Enable it with pwa

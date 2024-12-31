@@ -1,3 +1,4 @@
+import { MediaControls } from "vidstack";
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
@@ -12,16 +13,46 @@ export const zhNavbar = navbar([
     icon: "File",
     link: "/article/",
   },
-  "/posts/IT管理/",
-  "/posts/CyberSecurity/",
-  "/posts/Database/",
-  "/posts/Markdown/",
-  "/posts/Network/",
-  "/posts/CloudAndVMs/",
-  "/posts/macOS/",
-  "/posts/Windows/",
-  "/posts/Linux/",
-  "/posts/CodeSnippets/",
+  {
+    text: "学习笔记",
+    icon: "File",
+    children: [
+      "/posts/Blogs/ITManage/",
+      "/posts/Blogs/CyberSecurity/",
+      "/posts/Blogs/Database/",
+      "/posts/Blogs/Markdown/",
+      "/posts/Blogs/Network/",
+      "/posts/Blogs/CloudAndVMs/",
+      "/posts/Blogs/macOS/",
+      "/posts/Blogs/Windows/",
+      "/posts/Blogs/Linux/",
+      "/posts/Blogs/CodeSnippets/",
+    ],
+  },
+  {
+    text: "收集箱",
+    icon: "File",
+    children: [
+      "/posts/Collection/OpensourceProject.md",
+      "/posts/Collection/OnlineTools.md",
+      {
+        text: "软件工具列表",
+        icon: "software",
+        children: [
+          {
+            text: "macOS软件工具列表",
+            icon: "Software",
+            link: "/posts/Collection/macOS软件工具列表.md",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "思考 & 杂谈",
+    icon: "File",
+    link: "/posts/ThinkAndTalk/",
+  },
   {
     text: "关于我",
     icon: "Personal-Profile",
