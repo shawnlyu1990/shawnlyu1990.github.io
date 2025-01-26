@@ -29,7 +29,6 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: 'docs/pnpm-lock.yaml'
 
       - name: 安装依赖
         run: |
