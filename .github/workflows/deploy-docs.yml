@@ -32,7 +32,11 @@ jobs:
 
       - name: 安装依赖
         run: |
+          echo "Before: corepack => $(corepack --version || echo 'not installed')"
+          npm install -g corepack@latest
+          echo "After : corepack => $(corepack --version)"
           corepack enable
+          pnpm --version
           pnpm install --frozen-lockfile
 
       - name: 构建文档
