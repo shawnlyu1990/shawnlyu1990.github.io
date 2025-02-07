@@ -13,7 +13,7 @@ export default navbar([
     link: "/article/",
   },
   {
-    text: "学习笔记",
+    text: "笔记",
     icon: "File",
     children: [
       "/posts/Blogs/ITManage/",
@@ -48,7 +48,7 @@ export default navbar([
     ],
   },
   {
-    text: "思考 & 杂谈",
+    text: "随便写写",
     icon: "File",
     link: "/posts/ThinkAndTalk/",
   },
