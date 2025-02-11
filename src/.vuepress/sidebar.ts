@@ -4,7 +4,7 @@ export default sidebar({
   "/posts/Blogs/": [
     {
       text: "IT管理",
-      icon: "Flow",
+      icon: "/assets/blogicons/工作流程.png",
       prefix: "ITManage/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -14,7 +14,7 @@ export default sidebar({
     },
     {
       text: "网络安全",
-      icon: "CyberSecurity",
+      icon: "/assets/blogicons/网络安全.png",
       prefix: "CyberSecurity/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -24,7 +24,7 @@ export default sidebar({
     },
     {
       text: "数据库",
-      icon: "Database",
+      icon: "/assets/blogicons/数据库服务器.png",
       prefix: "Database/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -33,7 +33,7 @@ export default sidebar({
       children: [
         {
           text: "PostgreSQL",
-          icon: "PostgreSQL",
+          icon: "/assets/blogicons/PostgreSQL.png",
           prefix: "PostgreSQL/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -45,7 +45,7 @@ export default sidebar({
     },
     {
       text: "Markdown",
-      icon: "Markdown",
+      icon: "/assets/blogicons/Markdown.png",
       prefix: "Markdown/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -55,7 +55,7 @@ export default sidebar({
     },
     {
       text: "网络",
-      icon: "Global-Network",
+      icon: "/assets/blogicons/网络.png",
       prefix: "Network/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -64,7 +64,7 @@ export default sidebar({
       children: [
         {
           text: "路由交换",
-          icon: "Network-Wired",
+          icon: "/assets/blogicons/路由器.png",
           prefix: "路由交换/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -74,7 +74,7 @@ export default sidebar({
         },
         {
           text: "软路由",
-          icon: "WiFi-Router",
+          icon: "/assets/blogicons/无线路由器.png",
           prefix: "软路由/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -84,7 +84,7 @@ export default sidebar({
         },
         {
           text: "网络协议",
-          icon: "Network-Protocol",
+          icon: "/assets/blogicons/协议.png",
           prefix: "网络协议/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -93,7 +93,7 @@ export default sidebar({
           children: [
             {
               text: "数据链路层",
-              icon: "Network-Protocol",
+              icon: "/assets/blogicons/链.png",
               prefix: "数据链路层/",
               // 设置分组是否可以折叠，默认值是 false
               collapsible: true,
@@ -107,7 +107,7 @@ export default sidebar({
     },
     {
       text: "云和虚拟化",
-      icon: "Cloud",
+      icon: "/assets/blogicons/云.png",
       prefix: "CloudAndVMs/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -116,7 +116,7 @@ export default sidebar({
       children: [
         {
           text: "VMware",
-          icon: "VM",
+          icon: "/assets/blogicons/VMW.png",
           prefix: "VMware/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -125,7 +125,7 @@ export default sidebar({
           children: [
             {
               text: "VMware Desktop Hypervisor",
-              icon: "VMware-Workstation",
+              icon: "/assets/blogicons/VMware-Workstation.png",
               prefix: "VMware Desktop Hypervisor/",
               // 设置分组是否可以折叠，默认值是 false
               collapsible: true,
@@ -135,7 +135,7 @@ export default sidebar({
             },
             {
               text: "VMware vSphere",
-              icon: "VMwarevSphere",
+              icon: "/assets/blogicons/VMwarevSphere.png",
               prefix: "VMware vSphere/",
               // 设置分组是否可以折叠，默认值是 false
               collapsible: true,
@@ -149,7 +149,7 @@ export default sidebar({
     },
     {
       text: "macOS",
-      icon: "macOS",
+      icon: "/assets/blogicons/Apple.png",
       prefix: "macOS/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -159,7 +159,7 @@ export default sidebar({
     },
     {
       text: "Windows",
-      icon: "Windows",
+      icon: "/assets/blogicons/Windows.png",
       prefix: "Windows/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -169,7 +169,7 @@ export default sidebar({
     },
     {
       text: "Linux",
-      icon: "Linux",
+      icon: "/assets/blogicons/Linux.png",
       prefix: "Linux/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -178,7 +178,7 @@ export default sidebar({
       children: [
         {
           text: "标准规范",
-          icon: "Rule",
+          icon: "/assets/blogicons/规则手册.png",
           prefix: "标准规范/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -188,7 +188,7 @@ export default sidebar({
         },
         {
           text: "服务部署",
-          icon: "Environment-Deploy",
+          icon: "/assets/blogicons/部署.png",
           prefix: "服务部署/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -198,7 +198,7 @@ export default sidebar({
         },
         {
           text: "FAQ",
-          icon: "Question",
+          icon: "/assets/blogicons/常问问题.png",
           prefix: "FAQ/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -210,7 +210,7 @@ export default sidebar({
     },
     {
       text: "代码片段",
-      icon: "code",
+      icon: "/assets/blogicons/源代码.png",
       prefix: "CodeSnippets/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
@@ -219,7 +219,7 @@ export default sidebar({
       children: [
         {
           text: "Bash",
-          icon: "Terminal",
+          icon: "/assets/blogicons/Bash.png",
           prefix: "Bash/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -229,7 +229,7 @@ export default sidebar({
         },
         {
           text: "Python",
-          icon: "Python",
+          icon: "/assets/blogicons/Python.png",
           prefix: "Python/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
@@ -245,7 +245,7 @@ export default sidebar({
     "OnlineTools.md",
     {
       text: "软件工具列表",
-      icon: "Software",
+      icon: "/assets/blogicons/应用列表.png",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false

@@ -1,7 +1,7 @@
 ---
 title: 网络
 index: false
-icon: Global-Network
+icon: "/assets/blogicons/网络.png"
 article: false
 timeline: false
 comment: false

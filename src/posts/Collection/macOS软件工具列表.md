@@ -6,7 +6,7 @@ shortTitle: macOS 软件工具列表
 # 当前页面内容描述。
 description: 收集整理一些自己在 macOS 上常用的软件。
 # 当前页面的图标，建议填写
-icon: Software
+icon: "/assets/blogicons/AppStore.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

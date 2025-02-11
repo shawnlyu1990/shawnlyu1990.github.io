@@ -6,7 +6,7 @@ shortTitle: CentOS 7 部署服务 - OpenLDAP
 # 当前页面内容描述。
 description: 部署 OpenLDAP 服务使用 Windows AD 的认证，只在 AD 上维护一套用户密码，OpenLDAP 将认证转发到微软 AD 上进行。
 # 当前页面的图标，建议填写
-icon: OpenLDAP
+icon: /assets/blogicons/OpenLDAP.png
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

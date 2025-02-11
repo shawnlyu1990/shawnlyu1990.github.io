@@ -1,7 +1,7 @@
 ---
 title: Linux
 index: false
-icon: Linux
+icon: /assets/blogicons/Linux.png
 article: false
 timeline: false
 comment: false

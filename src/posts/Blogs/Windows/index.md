@@ -1,7 +1,7 @@
 ---
 title: Windows
 index: false
-icon: Windows
+icon: "/assets/blogicons/Windows.png"
 article: false
 timeline: false
 comment: false

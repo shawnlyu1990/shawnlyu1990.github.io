@@ -6,7 +6,7 @@ shortTitle: PgSQL 查询数据时将空值替换为指定内容
 # 当前页面内容描述。
 description: 
 # 当前页面的图标，建议填写
-icon: PostgreSQL
+icon: "/assets/blogicons/PostgreSQL.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

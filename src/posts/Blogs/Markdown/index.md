@@ -1,7 +1,7 @@
 ---
 title: Markdown
 index: false
-icon: Markdown
+icon: "/assets/blogicons/Markdown.png"
 article: false
 timeline: false
 comment: false

@@ -1,7 +1,7 @@
 ---
 title: 网络安全
 index: false
-icon: CyberSecurity
+icon: "/assets/blogicons/网络安全.png"
 article: false
 timeline: false
 comment: false

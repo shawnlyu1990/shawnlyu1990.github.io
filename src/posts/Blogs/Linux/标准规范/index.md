@@ -1,7 +1,7 @@
 ---
 title: 标准规范
 index: false
-icon: Rule
+icon: "/assets/blogicons/规则手册.png"
 article: false
 timeline: false
 comment: false

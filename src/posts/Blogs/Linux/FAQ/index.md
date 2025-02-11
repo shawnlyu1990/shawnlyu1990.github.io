@@ -1,7 +1,7 @@
 ---
 title: FAQ
 index: false
-icon: Question
+icon: "/assets/blogicons/常问问题.png"
 article: false
 timeline: false
 comment: false

@@ -1,7 +1,7 @@
 ---
 title: 路由交换
 index: false
-icon: Network-Wired
+icon: "/assets/blogicons/路由器.png"
 article: false
 timeline: false
 comment: false

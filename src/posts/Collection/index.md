@@ -1,7 +1,7 @@
 ---
 title: 收集箱
 index: false
-icon: collector
+icon: "/assets/blogicons/收件箱.png"
 article: false
 timeline: false
 comment: false

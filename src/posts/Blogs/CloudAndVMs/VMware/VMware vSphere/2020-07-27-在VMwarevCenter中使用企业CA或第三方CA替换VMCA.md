@@ -6,7 +6,7 @@ shortTitle: 【配置】在 VMware vCenter 中使用企业 CA 或第三方 CA �
 # 当前页面内容描述。
 description: VMware vCenter支持根据公司策略和正配置的系统的要求来执行不同类型的证书替换。可以使用 vSphere Certificate Manager 实用程序从 Platform Services Controller 执行证书替换，也可以通过使用安装中包含的 CLI 手动执行证书替换。
 # 当前页面的图标，建议填写
-icon: VMwarevSphere
+icon: "/assets/blogicons/VMwarevSphere.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

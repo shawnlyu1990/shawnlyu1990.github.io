@@ -6,7 +6,7 @@ shortTitle: 在线工具收集
 # 当前页面内容描述。
 description: 收集介绍一些我觉得有意思的，能提高效率的在线工具网站
 # 当前页面的图标，建议填写
-icon: tool
+icon: "/assets/blogicons/工具.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

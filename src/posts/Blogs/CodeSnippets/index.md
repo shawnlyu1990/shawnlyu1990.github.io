@@ -1,7 +1,7 @@
 ---
 title: 代码片段
 index: false
-icon: code
+icon: "/assets/blogicons/源代码.png"
 article: false
 timeline: false
 comment: false

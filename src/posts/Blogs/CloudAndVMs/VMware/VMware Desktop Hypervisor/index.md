@@ -1,7 +1,7 @@
 ---
 title: VMware Desktop Hypervisor
 index: false
-icon: VMware-Workstation
+icon: "/assets/blogicons/VMware-Workstation.png"
 article: false
 timeline: false
 comment: false

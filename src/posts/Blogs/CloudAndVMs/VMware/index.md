@@ -1,7 +1,7 @@
 ---
 title: VMware
 index: false
-icon: vmware
+icon: "/assets/blogicons/VMW.png"
 article: false
 timeline: false
 comment: false

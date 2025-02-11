@@ -6,7 +6,7 @@ shortTitle: 开源项目收集
 # 当前页面内容描述。
 description: 收集介绍一些我觉得有意思的开源项目
 # 当前页面的图标，建议填写
-icon: github
+icon: "/assets/blogicons/Github.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

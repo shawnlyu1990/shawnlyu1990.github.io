@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: Home
+icon: "/assets/blogicons/首页.png"
 title: 主页
 heroImage: /assets/icon/坐着工作的胖男孩.png
 heroText: 技术宅拯救世界

@@ -6,7 +6,7 @@ shortTitle: Linux 的目录 - /Proc
 # 当前页面内容描述。
 description: Linux 的目录 - /Proc
 # 当前页面的图标，建议填写
-icon: File-Tree
+icon: "/assets/blogicons/目录树.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

@@ -1,7 +1,7 @@
 ---
 title: 云和虚拟化
 index: false
-icon: Cloud
+icon: "/assets/blogicons/云.png"
 article: false
 timeline: false
 comment: false

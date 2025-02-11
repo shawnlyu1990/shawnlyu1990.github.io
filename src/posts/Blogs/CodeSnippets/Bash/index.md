@@ -1,7 +1,7 @@
 ---
 title: Bash
 index: false
-icon: Terminal
+icon: "/assets/blogicons/Bash.png"
 article: false
 timeline: false
 comment: false

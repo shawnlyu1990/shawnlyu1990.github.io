@@ -6,7 +6,7 @@ shortTitle: Linux Curl 命令卡「Client Hello」故障处理
 # 当前页面内容描述。
 description: 记录 Linux 服务器 Curl 方式访问另一台 Linux 服务器卡在「client hello」的处理方法
 # 当前页面的图标，建议填写
-icon: Question
+icon: "/assets/blogicons/常问问题.png"
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

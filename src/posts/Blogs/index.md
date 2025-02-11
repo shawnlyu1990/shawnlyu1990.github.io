@@ -1,7 +1,7 @@
 ---
-title: 个人笔记
+title: 笔记
 index: false
-icon: notebook
+icon: "/assets/blogicons/笔记本.png"
 article: false
 timeline: false
 comment: false

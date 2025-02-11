@@ -1,7 +1,7 @@
 ---
 title: VMware vSphere
 index: false
-icon: VMwarevSphere
+icon: "/assets/blogicons/VMwarevSphere.png"
 article: false
 timeline: false
 comment: false

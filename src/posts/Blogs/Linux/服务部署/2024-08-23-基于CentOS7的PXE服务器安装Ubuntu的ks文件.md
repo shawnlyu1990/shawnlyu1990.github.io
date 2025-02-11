@@ -6,7 +6,7 @@ shortTitle: PXE 服务器安装 Ubuntu 的 ks 文件记录
 # 当前页面内容描述。
 description: 基于 CentOS 7 的 PXE 服务器安装 Ubuntu 的 ks 文件记录
 # 当前页面的图标，建议填写
-icon: PXE-Server
+icon: /assets/blogicons/PXE服务器.png
 # 作者
 author: 昌霖学长
 # 当前文章是否为原创

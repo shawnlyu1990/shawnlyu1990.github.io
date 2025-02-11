@@ -1,7 +1,7 @@
 ---
 title: 软路由
 index: false
-icon: WiFi-Router
+icon: "/assets/blogicons/无线路由器.png"
 article: false
 timeline: false
 comment: false

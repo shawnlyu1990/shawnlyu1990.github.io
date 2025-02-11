@@ -1,7 +1,7 @@
 ---
 title: Python
 index: false
-icon: Python
+icon: "/assets/blogicons/Python.png"
 article: false
 timeline: false
 comment: false

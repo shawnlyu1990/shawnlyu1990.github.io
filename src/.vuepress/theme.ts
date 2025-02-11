@@ -21,7 +21,7 @@ export default hopeTheme(
     // 是否在导航栏显示仓库链接。
     repoDisplay: false,
     // 文档在仓库中的目录
-    docsDir: "docs/src",
+    docsDir: "src",
     // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序。
     pageInfo: ["Original", "Author", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
     // 最近更新日期
@@ -195,10 +195,10 @@ export default hopeTheme(
 
       // 字体图标资源链接，支持 'iconify' 'fontawesome' 和 'fontawesome-with-brands' 关键字。
       icon: {
-        //iconAssets: "fontawesome-with-brands",
-        assets: "/assets/iconfont/iconfont.css",
+        assets: "iconify",
+        //assets: "/assets/iconfont/iconfont.css",
         // 如果使用iconfont则需要开启此字段
-        prefix: "iconfont icon-",
+        //prefix: "iconfont icon-",
       },
 
       // Giscus comment

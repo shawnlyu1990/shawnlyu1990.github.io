@@ -1,7 +1,7 @@
 ---
 title: macOS
 index: false
-icon: macOS
+icon: "/assets/blogicons/Apple.png"
 article: false
 timeline: false
 comment: false

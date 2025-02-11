@@ -1,7 +1,7 @@
 ---
 title: 数据库
 index: false
-icon: Database
+icon: "/assets/blogicons/数据库服务器.png"
 article: false
 timeline: false
 comment: false

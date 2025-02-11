@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL
 index: false
-icon: PostgreSQL
+icon: "/assets/blogicons/PostgreSQL.png"
 article: false
 timeline: false
 comment: false
