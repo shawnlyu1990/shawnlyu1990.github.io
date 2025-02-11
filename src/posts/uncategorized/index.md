@@ -1,7 +1,7 @@
 ---
 title: 未分类
 index: false
-icon: uncatelogued
+icon: "/assets/blogicons/未分类.png"
 article: false
 timeline: false
 ---
