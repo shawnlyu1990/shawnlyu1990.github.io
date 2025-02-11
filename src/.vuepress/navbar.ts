@@ -18,12 +18,8 @@ export default navbar([
     children: [
       "/posts/Blogs/ITManage/",
       "/posts/Blogs/CyberSecurity/",
-      "/posts/Blogs/Database/",
       "/posts/Blogs/Markdown/",
       "/posts/Blogs/Network/",
-      "/posts/Blogs/CloudAndVMs/",
-      "/posts/Blogs/macOS/",
-      "/posts/Blogs/Windows/",
       "/posts/Blogs/Linux/",
       "/posts/Blogs/CodeSnippets/",
     ],
@@ -32,11 +28,7 @@ export default navbar([
     text: "配置技巧",
     icon: "/assets/blogicons/计算机设置.png",
     children: [
-      "/posts/Config/ITManage/",
-      "/posts/Config/CyberSecurity/",
       "/posts/Config/Database/",
-      "/posts/Config/Markdown/",
-      "/posts/Config/Network/",
       "/posts/Config/CloudAndVMs/",
       "/posts/Config/macOS/",
       "/posts/Config/Windows/",
@@ -63,11 +55,6 @@ export default navbar([
       },
     ],
   },
-  // {
-  //   text: "随便写写",
-  //   icon: "File",
-  //   link: "/posts/ThinkAndTalk/",
-  // },
   {
     text: "关于我",
     icon: "/assets/blogicons/用户.png",

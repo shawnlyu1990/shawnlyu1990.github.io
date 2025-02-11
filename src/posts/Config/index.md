@@ -1,12 +1,10 @@
 ---
-title: 网络安全
+title: 配置技巧
 index: false
-icon: "/assets/blogicons/网络安全.png"
+icon: "/assets/blogicons/计算机设置.png"
 article: false
 timeline: false
 comment: false
-category:
-  - 网络安全
 ---
 
 <div class="catalog-display-container">

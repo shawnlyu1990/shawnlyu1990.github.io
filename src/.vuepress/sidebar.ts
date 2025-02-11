@@ -23,27 +23,6 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "数据库",
-      icon: "/assets/blogicons/数据库服务器.png",
-      prefix: "Database/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: [
-        {
-          text: "PostgreSQL",
-          icon: "/assets/blogicons/PostgreSQL.png",
-          prefix: "PostgreSQL/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: false,
-          children: "structure",
-        },
-      ],
-    },
-    {
       text: "Markdown",
       icon: "/assets/blogicons/Markdown.png",
       prefix: "Markdown/",
@@ -90,18 +69,76 @@ export default sidebar({
           collapsible: true,
           // 设置分组是否默认展开，默认值是 false
           expanded: false,
-          children: [
-            {
-              text: "数据链路层",
-              icon: "/assets/blogicons/链.png",
-              prefix: "数据链路层/",
-              // 设置分组是否可以折叠，默认值是 false
-              collapsible: true,
-              // 设置分组是否默认展开，默认值是 false
-              expanded: false,
-              children: "structure",
-            },
-          ],
+          children: "structure",
+        },
+      ],
+    },
+    {
+      text: "Linux",
+      icon: "/assets/blogicons/Linux.png",
+      prefix: "Linux/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure"
+    },
+    {
+      text: "代码片段",
+      icon: "/assets/blogicons/源代码.png",
+      prefix: "CodeSnippets/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: [
+        {
+          text: "Python",
+          icon: "/assets/blogicons/Python.png",
+          prefix: "Python/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: true,
+          children: "structure",
+        },
+      ],
+    },
+  ],
+  "/posts/Collection/": [
+    "OpensourceProject.md",
+    "OnlineTools.md",
+    {
+      text: "软件工具列表",
+      icon: "/assets/blogicons/应用列表.png",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: [
+        "macOS软件工具列表.md",
+      ],
+    },
+  ],
+  "/posts/Config/": [
+    {
+      text: "数据库",
+      icon: "/assets/blogicons/数据库服务器.png",
+      prefix: "Database/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: [
+        {
+          text: "PostgreSQL",
+          icon: "/assets/blogicons/PostgreSQL.png",
+          prefix: "PostgreSQL/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
         },
       ],
     },
@@ -227,64 +264,7 @@ export default sidebar({
           expanded: false,
           children: "structure",
         },
-        {
-          text: "Python",
-          icon: "/assets/blogicons/Python.png",
-          prefix: "Python/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: true,
-          children: "structure",
-        },
       ],
-    },
-  ],
-  "/posts/Collection/": [
-    "OpensourceProject.md",
-    "OnlineTools.md",
-    {
-      text: "软件工具列表",
-      icon: "/assets/blogicons/应用列表.png",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: [
-        "macOS软件工具列表.md",
-      ],
-    },
-  ],
-  "/posts/ThinkAndTalk/": [
-    {
-      text: "网络安全",
-      icon: "CyberSecurity",
-      prefix: "CyberSecurity/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: "structure",
-    },
-    {
-      text: "路由交换",
-      icon: "Network-Wired",
-      prefix: "路由交换/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: "structure",
-    },
-    {
-      text: "网络协议",
-      icon: "Network-Protocol",
-      prefix: "网络协议/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: "structure",
     },
   ],
   "/posts/uncategorized/": [
