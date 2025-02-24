@@ -43,13 +43,18 @@ export default navbar([
       "/posts/Collection/OpensourceProject.md",
       "/posts/Collection/OnlineTools.md",
       {
-        text: "软件工具列表",
-        icon: "/assets/blogicons/应用列表.png",
+        text: "macOS",
+        icon: "/assets/blogicons/macos.png",
         children: [
           {
-            text: "macOS软件工具列表",
+            text: "macOS 软件工具列表",
             icon: "/assets/blogicons/AppStore.png",
             link: "/posts/Collection/macOS软件工具列表.md",
+          },
+          {
+            text: "macOS IPSW 格式安装镜像下载",
+            icon: "/assets/blogicons/macos.png",
+            link: "/posts/Collection/macOS_IPSW_格式安装镜像下载.md",
           },
         ],
       },

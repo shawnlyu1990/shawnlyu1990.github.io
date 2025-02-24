@@ -109,14 +109,15 @@ export default sidebar({
     "OpensourceProject.md",
     "OnlineTools.md",
     {
-      text: "软件工具列表",
-      icon: "/assets/blogicons/应用列表.png",
+      text: "macOS",
+      icon: "/assets/blogicons/macos.png",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false
       expanded: false,
       children: [
         "macOS软件工具列表.md",
+        "macOS_IPSW_格式安装镜像下载.md",
       ],
     },
   ],

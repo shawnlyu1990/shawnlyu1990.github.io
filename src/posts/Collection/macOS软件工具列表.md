@@ -275,7 +275,7 @@ comment: false
     听说 Arc 浏览器开发商 The Browser Company 宣布该浏览器停止开发，尽管当前 Arc 浏览器不会被抛弃，但后续基本不会再添加新功能。还是有点小遗憾。
 
     ::: warning
-    因为一些特殊原因，Arc的登录/同步服务器在大陆一般是无法直接访问的，因此除魔法外别无他法，即使使用魔法仍旧要等个十秒左右，因人而异。Arc很多创新功能，也都需要魔法加持才能正常使用。
+    因为一些特殊原因，Arc 的登录/同步服务器在大陆一般是无法直接访问的，因此除魔法外别无他法，即使使用魔法仍旧要等个十秒左右，因人而异。Arc很多创新功能，也都需要魔法加持才能正常使用。
     :::
 
 ---
@@ -543,8 +543,6 @@ comment: false
 
 - **简介**：
     Craft 是一款小众且独特的笔记软件。当时是看上它的颜值（还曾经被苹果评选为[2021 年度 Mac App](https://apps.apple.com/cn/story/id1591089619)），再加上是专门为 Mac 开发的原生应用，体验上确实丝般顺滑。相当于无数据库版的 Notion。
-
-    但是功能上确实没有 Notion 强大，而且 Notion 可以玩出更多的花活来，再加上最近感觉 Notion 的网络访问质量好了很多，所以最近我又开始研究 Notion 了😋，现在正在尝试着迁移一些笔记到 Notion 上。
 
 ---
 
@@ -1252,6 +1250,9 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
     算是我用的最久的一款记账软件了，最开始我记账其实也坚持不下去，后来我突然想到记账其实可以不用实时记账，可以第二天再对前一天或前几天的花销统一记账，从此我觉得记账也并不算什么难事了。
 
+    **2025 年 2 月更新**：
+    前俩月把主力 Apple ID 换成了美区 ID，但是这个 App 我是用国区的 Apple ID 买断的，结果手机上每次更新这个 App 的时候都会给我退出国区的账号，每次都要重新切回国区账号登录一下，好麻烦。准备放弃了，目前在用 iCost 过渡。
+
 ---
 
 ### Mos <Badge text="使用中" type="info" vertical="top" /><span id="Mos"/>
@@ -1424,13 +1425,41 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Obsidian <Badge text="使用中" type="info" vertical="top" /><span id="Obsidian"/>
 
-待更新
+![Obsidian](/assets/postsimages/2024-08-28-macOS软件工具列表/Obsidian.png =200x)
+
+- **下载**
+  - 通过 [官网](https://obsidian.md/download) 下载
+
+- [官方网站](https://obsidian.md/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  Obsidian 是一个功能完备、可拓展性极强的笔记软件。使用 Obsidian 可以轻而易举地管理数百万字的笔记，也可以通过各种插件实现数据库查询、任务管理等功能；由于其高度可拓展性，我们还可以利用 Obsidian 做出诸如小说库、电影库之类的面向特定专业、特定场景的实例库。但是相比于 Notion、印象笔记来说，Obsidian 对新手没有那么友好。
+
+  2023 年的时候，我突发奇想，想把之前在各个平台随便写的笔记好好整理汇总一下，于是想着选一个主力的笔记软件，在 Craft、Obsidian、Notion 之间犹豫良久，虽然最终选择了颜值更高的 Craft，但是 Obsidian 的强大的扩展能力还是给我留下了深刻印象。
 
 ---
 
 ### OneDrive <Badge text="使用中" type="info" vertical="top" /><span id="OneDrive"/>
 
-待更新
+![OneDrive](/assets/postsimages/2024-08-28-macOS软件工具列表/OneDrive.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/onedrive/id823766827?mt=12) 下载
+  - 通过 [官网](https://www.microsoft.com/en-us/microsoft-365/onedrive/download) 下载
+
+- [在线版](https://onedrive.live.com/)
+  
+  ::: warning
+  在线版网页在中国大陆无法直接打开，需要用点「魔法」。但是 APP 可以直接使用。
+  :::
+
+- **费用**：<Badge text="收费" type="danger" vertical="baseline" />
+    买 Office 会送 1TB 的存储空间，免费版好像是 5GB。Office 的具体价格可以参看[官网定价说明](https://www.microsoft.com/zh-cn/microsoft-365/buy/compare-all-microsoft-365-products)
+
+- **简介**：
+    微软出品的云存储。
 
 ---
 
@@ -1460,7 +1489,17 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Pap\.er <Badge text="使用中" type="info" vertical="top" /><span id="pap_er"/>
 
-待更新
+![Pap.er](/assets/postsimages/2024-08-28-macOS软件工具列表/Pap_er.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/pap-er-%E4%BC%98%E9%9B%85%E5%A3%81%E7%BA%B8/id1639052102) 下载
+
+- [官方网站](https://www.paperapp.net/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  专为 Mac 设计的壁纸应用，壁纸的质量非常高。支持一键切换壁纸或者定期更换壁纸。
 
 ---
 
@@ -1486,19 +1525,58 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### PiPifier <Badge text="使用中" type="info" vertical="top" /><span id="PiPifier"/>
 
-待更新
+![PiPifier](/assets/postsimages/2024-08-28-macOS软件工具列表/PiPifier.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/pipifier/id1160374471?mt=12) 下载
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- [Github 项目地址](https://github.com/arnoappenzeller/PiPifier)
+
+- **简介**：
+  PiPifier 是一个适用于 macOS 和 iOS 的 Safari 扩展程序，它允许你在画中画（Picture-in-Picture, PiP）模式下观看任何 HTML5 视频。无论是 YouTube 还是其他网站，PiPifier 都能帮你打破限制，让视频播放更加灵活。
 
 ---
 
 ### PopClip <Badge text="使用中" type="info" vertical="top" /><span id="PopClip"/>
 
-待更新
+![PopClip](/assets/postsimages/2024-08-28-macOS软件工具列表/PopClip.png =200x)
+
+- **下载**
+  - 通过 [Setapp](https://setapp.com/apps/popclip) 下载
+  - 通过 [官网](https://www.popclip.app/) 下载
+
+- **费用**：<Badge text="收费" type="danger" vertical="baseline" />
+  具体可以参看[官网定价说明](https://www.popclip.app/buy)。
+
+- [官方网站](https://www.popclip.app/)
+
+- **简介**：
+  非常有意思的一款小工具。PopClip 最基本的功能就是复制粘贴的使用，除此之外，再无拓展支持的情况下，根据鼠标选中的内容，PopClip 还自身支持链接的跳转打开、自带词典的翻译、邮件地址跳转、搜索引擎搜索、单词纠正等功能。
 
 ---
 
 ### Presentify <Badge text="使用中" type="info" vertical="top" /><span id="Presentify"/>
 
-待更新
+![Presenfity](/assets/postsimages/2024-08-28-macOS软件工具列表/Presentify.png =200x)
+
+- **下载**
+  - 通过 [Setapp](https://setapp.com/apps/presentify) 下载
+  - 通过 [官网](https://www.popclip.app/) 下载
+  - 通过 [Mac App Store](https://apps.apple.com/us/app/presentify-screen-annotation/id1507246666?mt=12)下载
+
+- **费用**：<Badge text="收费" type="danger" vertical="baseline" />
+  应用商店里收费 $6.99。
+  
+  也可以通过订阅 Setapp 后，直接下载使用（我下面有对 [Setapp](#Setapp) 的介绍）。
+
+- [官方网站](https://presentifyapp.com/)
+
+- **简介**：
+  Presentify 是一款 macOS 上的实时屏幕注释工具。这款应用的主要功能是对屏幕进行实时注释，它能够独立于其他应用在其之上进行演示。可用于在线教学，录制视频教程，进行演示，远程工作等。
+  
+  注释工具提供了手绘、方框、颜色选择等多种样式。除此之外，它还能够突出显示鼠标指针，调整其颜色、透明度、大小等。
 
 ---
 
@@ -1506,19 +1584,55 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### QQ <Badge text="使用中" type="info" vertical="top" /><span id="QQ"/>
 
-待更新
+![QQ](/assets/postsimages/2024-08-28-macOS软件工具列表/QQ.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/qq/id451108668?mt=12)下载
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- [官方网站](https://im.qq.com/index/)
+
+- **简介**：
+  腾讯出品的国民级聊天软件。
 
 ---
 
 ### QQ 音乐 <Badge text="使用中" type="info" vertical="top" /><span id="QQMusic"/>
 
-待更新
+![QQ音乐](/assets/postsimages/2024-08-28-macOS软件工具列表/QQ_Music.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/qq%E9%9F%B3%E4%B9%90-%E5%90%AC%E6%88%91%E6%83%B3%E5%90%AC/id595615424?mt=12)下载
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- [官方网站](https://y.qq.com/)
+
+- **简介**：
+  腾讯出品的音乐软件。
 
 ---
 
 ### QuickRecorder <Badge text="使用中" type="info" vertical="top" /><span id="QuickRecorder"/>
 
-待更新
+![QuickRecorder](/assets/postsimages/2024-08-28-macOS软件工具列表/QuickRecorder.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://github.com/lihaoyun6/QuickRecorder)下载
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- [Github 项目地址](https://github.com/lihaoyun6/QuickRecorder)
+
+- **简介**：
+  QuickRecorder 是一款 macOS 上的轻量级开源录屏工具，支持演讲者前置（M系芯片）、隐藏指定应用、录制系统声音等功能。
+
+  ::: note 来自 App 的作者
+  这个 App 的开发契机是我看不惯有的混子开发者把 SC API 最基础的录制功能包装一下就上架 App Store 卖 38 块钱, 纯坑小白… 你让我觉得不爽, 那我就砸你饭碗, 我把你敝帚自珍的东西直接开源免费, 而且软件写的比你付费版的更好用, 功能更多. 不服憋着!
+  :::
+
+  这个作者也开发了很多其他的有意思的 App，感兴趣的可以在 [Github](https://github.com/lihaoyun6) 上 <kbd class=button>Follow</kbd> 一下。
 
 ---
 
@@ -1532,11 +1646,11 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 - [官方网站](https://qianjiapp.com)
 
-- **费用**：<Badge text="免费" type="danger" vertical="baseline" />
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" /> + <Badge text="收费" type="danger" vertical="baseline" />
     基础功能免费，高级功能收费。
 
 - **简介**：
-    钱迹，一款简洁纯粹记账的 App，是一个秉持 “无广告、无开屏、无理财” 的 “三无” 产品，力求极简，专注个人记账。
+    钱迹，一款简洁纯粹记账的 App，是一个秉持 「无广告、无开屏、无理财」 的 「三无」 产品，力求极简，专注个人记账。
 
 ---
 
@@ -1544,7 +1658,18 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Raycast <Badge text="使用中" type="info" vertical="top" /><span id="Raycast"/>
 
-待更新
+![Raycast](/assets/postsimages/2024-08-28-macOS软件工具列表/Raycast.png =200x)
+
+- **下载**
+  - 通过 [官网](https://www.raycast.com/) 下载
+
+- [官方网站](https://www.raycast.com/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" /> + <Badge text="收费" type="danger" vertical="baseline" />
+    基础功能免费，高级功能收费。
+
+- **简介**：
+    Raycast 是一款集成了多种实用功能的 macOS 启动器，可以替代 Spotlight、剪贴板历史、窗口管理等应用。
 
 ---
 
@@ -1575,19 +1700,53 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### SiteSucker <Badge text="使用中" type="info" vertical="top" /><span id="SiteSucker"/>
 
-待更新
+![SiteSucker](/assets/postsimages/2024-08-28-macOS软件工具列表/SiteSucker.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/sitesucker/id442168834?mt=12) 下载
+
+- [官方网站](https://ricks-apps.com/osx/sitesucker/index.html)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+    SiteSucker Mac 版是 macOS 平台上的一款帮助用户下载网站数据的下载工具，SiteSucker 绝对是一扒网站的利器，不仅仅是下载网站的 HTML 源文件，他连网站整体架构以及下面的所有文本，程序文件，图片，视频，音频等数据一丝不漏的下载到 Mac 本地硬盘。
 
 ---
 
 ### Snipaste <Badge text="使用中" type="info" vertical="top" /><span id="Snipaste"/>
 
-待更新
+![Snipaste](/assets/postsimages/2024-08-28-macOS软件工具列表/Snipaste.png =200x)
+
+- **下载**
+  - 通过 [官网](https://zh.snipaste.com/) 下载
+
+- [官方网站](https://zh.snipaste.com/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" /> + <Badge text="收费" type="tip" vertical="baseline" />
+  普通版免费，专业版收费。具体费用在[官网](https://zh.snipaste.com/)中有说明。
+
+- **简介**：
+  Snipaste 是一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上！下载并打开 Snipaste，按下 F1 来开始截图，再按 F3，截图就在桌面置顶显示了。就这么简单！
+  
+  你还可以将剪贴板里的文字或者颜色信息转化为图片窗口，并且将它们进行缩放、旋转、翻转、设为半透明，甚至让鼠标能穿透它们！如果你是程序员、设计师，或者是大部分工作时间都在电脑前，贴图功能将改变你的工作方式、提升工作效率。
 
 ---
 
-### SnippetsLab <Badge text="使用中" type="info" vertical="top" /><span id="SnippetsLab"/>
+### SnippetsLab <Badge text="收藏" type="warning" vertical="top" /><span id="SnippetsLab"/>
 
-待更新
+![SnippetsLab](/assets/postsimages/2024-08-28-macOS软件工具列表/SnippetsLab.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/snippetslab/id1006087419?mt=12) 下载
+
+- [官方网站](https://zh.snipaste.com/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" /> + <Badge text="收费" type="tip" vertical="baseline" />
+  2024年11月27日起，SnippetsLab 已经完全免费，可以直接在 Mac App Store 下载安装。
+
+- **简介**：
+  SnippetsLab 是一款专为收集管理代码片段而设计的软件，支持多种编程语言和 iCloud 同步，可以快速搜索和调用你的私人代码库。它的界面简洁清爽，菜单栏助手功能强大，适合碎片化编程的场景。
 
 ---
 
@@ -1623,25 +1782,61 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Telegram <Badge text="使用中" type="info" vertical="top" /><span id="Telegram"/>
 
-待更新
+![Telegram](/assets/postsimages/2024-08-28-macOS软件工具列表/Telegram.png =200x)
 
----
+- **下载**
+  - 通过 [官网](https://telegram.org/) 下载
 
-### TopNotch <Badge text="使用中" type="info" vertical="top" /><span id="TopNotch"/>
+- [官方网站](https://telegram.org/)
+  ::: warning
+  中国大陆不能直接访问。
+  :::
 
-待更新
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  Telegram 是跨平台的即时通信软件，其客户端是自由及开放源代码软件，但服务端是专有软件。用户可以相互交换加密与自毁消息，发送照片、影片等所有类型文件。官方提供手机版、桌面版和网页版等多种平台客户端；同时官方开放应用程序接口，因此拥有许多第三方的客户端可供选择。
 
 ---
 
 ### Tor Browser <Badge text="使用中" type="info" vertical="top" /><span id="Tor_Browser"/>
 
-待更新
+![Tor Browser](/assets/postsimages/2024-08-28-macOS软件工具列表/Tor_Browser.png =200x)
+
+- **下载**
+  - 通过 [官网](https://www.torproject.org/download) 下载
+
+- [官方网站](https://www.torproject.org/)
+  ::: warning
+  中国大陆不能直接访问。
+  :::
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  简单说 Tor 是一款是你匿名访问网络的的软件。用户通过 Tor 可以在因特网上进行匿名交流。
+
+  为了实现匿名目的，Tor 把分散在全球的计算机集合起来形成一个加密回路。当你通过 Tor 网络访问互联网时，你的网络数据会通过多台电脑迂回发送，就像洋葱包裹其核心那样掩饰你的网络活动，信息传输在每一步都被加密，无从得知你所处位置和信息传输目的地。因此 Tor Browser 也被称为洋葱浏览器。
 
 ---
 
 ### Typora <Badge text="使用中" type="info" vertical="top" /><span id="Typora"/>
 
-待更新
+![Typora](/assets/postsimages/2024-08-28-macOS软件工具列表/Typora.png =200x)
+
+- **下载**
+  - 通过 [官网](https://typora.io) 下载
+
+- [官方网站](https://typora.io)
+  ::: warning
+  中国大陆不能直接访问。
+  :::
+
+- **费用**：<Badge text="收费" type="danger" vertical="baseline" />
+  具体可以参看[官网定价说明](https://typora.io/#purchase)。
+
+- **简介**：
+  Typora 是一款由 Abner Lee 开发的轻量级 Markdown 编辑器，与其他 Markdown 编辑器不同的是，Typora 没有采用源代码和预览双栏显示的方式，而是采用所见即所得的编辑方式，实现了即时预览的功能，但也可切换至源代码编辑模式。
 
 ---
 
@@ -1656,9 +1851,12 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 - [官方网站](https://meeting.tencent.com)
 
 - **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+  :::tip
+  现在最新的版本免费会议时长只有 40 分钟了，40 分钟之后会被强制退出，当然到时间退出之后重新进入会议就又可以开 40 分钟了。如果你不想中途被打断的话，也可以开个会员看看。
+  :::
 
 - **简介**：
-    腾讯会议是基于腾讯20多年音视频通讯经验的在线会议平台，支持视频会议、网络研讨会、会议室等多种场景，提供高清流畅的参会体验和丰富的会议协作能力。
+    腾讯会议是基于腾讯 20 多年音视频通讯经验的在线会议平台，支持视频会议、网络研讨会、会议室等多种场景，提供高清流畅的参会体验和丰富的会议协作能力。
 
 ---
 
@@ -1683,7 +1881,28 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### UTM <Badge text="使用中" type="info" vertical="top" /><span id="UTM"/>
 
-待更新
+![UTM](/assets/postsimages/2024-08-28-macOS软件工具列表/UTM.png =200x)
+
+- **下载**
+  - 通过 [官网](https://getutm.app/) 下载
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/utm-virtual-machines/id1538878817?mt=12)
+
+- [官方网站](https://cloud.189.cn)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+  ::: tip
+  Mac App Store中下载的版本是收费的。官网中的版本是免费的。
+  :::
+  ::: note Mac App Store 版本 V.S. 官网版本（官方解释）
+  UTM is and always will be completely free and open source. The Mac App Store version is identical to the free version and there are no features left out of the free version. The only advantage of the Mac App Store version is that you can get automatic updates. Purchasing the App Store version directly funds the development of UTM and shows your support .
+  
+  UTM 永远是完全免费和开源的。Mac App Store 版本与免费版本相同，并且免费版本没有遗漏任何功能。Mac App Store 版本的唯一优势是您可以获得自动更新。购买 App Store 版本直接为 UTM 的开发提供资金并表示您的支持。
+  
+  —— https://mac.getutm.app/
+  :::
+
+- **简介**：
+  UTM 采用 Apple 的 Hypervisor 虚拟化框架在 Apple silicon 上以接近本机的速度运行 ARM64 操作系统。在 Intel Mac 上，可以虚拟化 x86/x64 操作系统。此外，较低性能的仿真可用于在 Apple silicon 上运行 x86/x64 以及在 Intel 上运行 ARM64。对于开发人员和爱好者，还有许多其他仿真处理器，包括：ARM32、MIPS、PPC 和 RISC-V。你的 Mac 现在可以真正运行任何东西了。
 
 ---
 
@@ -1691,43 +1910,127 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### V2RayXS <Badge text="使用中" type="info" vertical="top" /><span id="V2RayXS"/>
 
-待更新
+![V2RayXS](/assets/postsimages/2024-08-28-macOS软件工具列表/V2RayXS.png =200x)
+
+- **下载**
+  - 通过 [Github](https://github.com/tzmax/V2RayXS/releases) 下载
+
+- [Github 项目地址](https://github.com/tzmax/V2RayXS)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  A simple GUI for Xray on macOS.（macOS 上的一个简易 Xray GUI 软件。）
+
+  作者从 2023 年 11 月 24 日以后就没有更新过了，目前用着还比较稳定，等哪天挂了再说吧。
 
 ---
 
 ### VidHub <Badge text="使用中" type="info" vertical="top" /><span id="VidHub"/>
 
-待更新
+![VidHub](/assets/postsimages/2024-08-28-macOS软件工具列表/VidHub.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/vidhub-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8-%E5%BF%AB%E9%80%9F%E6%92%AD%E6%94%BE%E4%BA%91%E7%9B%98%E7%BD%91%E7%9B%98/id1659622164) 下载
+
+- [官网](https://zh.okaapps.com/product/1659622164)
+
+- **费用**：<Badge text="收费" type="danger" vertical="baseline" />
+  ::: tip
+  虽然收费，但是好像经常搞活动。
+  :::
+
+- **简介**：
+  VidHub是一苹果/安卓全平台视频播放器。支持管理本地/smb服务器/webdav服务器/阿里云盘/百度网盘/移动云盘/123 网盘视频文件，支持群晖等NAS网络存储。自动刮削整理影视资源。同时拥有强大的播放器，支持mp4/mkv/webm/avi/rmvb/wmv等几乎所有的视频格式。支持倍速，字幕，截图，HDR等功能。
+
+  可作为 Infuse 的平替。
 
 ---
 
 ### VirtualBuddy <Badge text="使用中" type="info" vertical="top" /><span id="VirtualBuddy"/>
 
-待更新
+![VirtualBuddy](/assets/postsimages/2024-08-28-macOS软件工具列表/VirtualBuddy.png =200x)
+
+- **下载**
+  - 通过 [Github](https://github.com/insidegui/VirtualBuddy/releases/) 下载
+
+- [Github 项目地址](https://github.com/insidegui/VirtualBuddy)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  一款专为苹果 Apple Silicon Mac 设计的 macOS 免费开源虚拟化软件，它允许开发者在本地测试应用在不同版本的 macOS 中的兼容性，通过简化虚拟机的创建和管理，提高了开发效率并降低了成本。
+
+  用这个软件的关键是因为软件中内置了一个 GuestApp，支持剪贴板共享和文件共享等功能，虚拟机启动之后，只需在 Finder 的侧边栏上选择 Guest 磁盘，然后双击 VirtualBuddyGuest 应用程序图标就可以启用了。
+
+  对我来说，等 VMware Fusion 支持安装 macOS 了，这个软件的历史使命也就结束了。
 
 ---
 
 ### Visual Studio Code <Badge text="使用中" type="info" vertical="top" /><span id="VSCode"/>
 
-待更新
+![Visual Studio Code](/assets/postsimages/2024-08-28-macOS软件工具列表/Visual_Studio_Code.png =200x)
 
----
+- **下载**
+  - 通过 [官网](https://code.visualstudio.com/) 下载
 
-### VisualDiffer <Badge text="使用中" type="info" vertical="top" /><span id="VisualDiffer"/>
+- [官方网站](https://code.visualstudio.com/)
 
-待更新
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  Visual Studio Code（简称VS Code）是由微软开发的一个现代化、轻量级的代码编辑器，它支持几十种主流编程语言（如 JavaScript、Python、C++、Java、Go 等），并通过扩展提供更广泛的语言支持。
 
 ---
 
 ### VLC <Badge text="使用中" type="info" vertical="top" /><span id="VLC"/>
 
-待更新
+![VLC](/assets/postsimages/2024-08-28-macOS软件工具列表/VLC.png =200x)
+
+- **下载**
+  - 通过 [官网](https://www.videolan.org/vlc/) 下载
+
+- [官方网站](https://www.videolan.org/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  VLC 是一款自由、开源的跨平台多媒体播放器及框架，可播放大多数多媒体文件，以及 DVD、音频 CD、VCD 及各类流媒体协议。
+
+  - **简单、快速、强大**
+    - 能播放任何内容 - 文件、光盘、摄像头、设备及流媒体
+    - 可播放大多数格式，无需安装编解码器包 - MPEG-2, MPEG-4, H.264, MKV, WebM, WMV, MP3...
+    - 可在所有平台运行 - Windows, Linux, Mac OS X, Unix, iOS, Android ...
+    - 完全免费 - 无间谍软件，无广告，无跟踪用户的行为
+  
+  - **自定义**
+    - 添加 外观.
+    - 设计外观可采用 VLC 外观编辑器.
+    - 安装 扩展.
 
 ---
 
 ### VMware Fusion <Badge text="使用中" type="info" vertical="top" /><span id="VMwareFusion"/>
 
-待更新
+![VMware Fusion](/assets/postsimages/2024-08-28-macOS软件工具列表/VMware_Fusion.png =200x)
+
+- **下载**
+  - 通过 [博通官方支持页面](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Fusion) 下载
+  :::tip
+  2023年 博通正式官宣对 VMware 完成了收购，所以软件下载页面也并入博通的下载页面中了。
+  :::
+
+- [官方网站（桌面虚拟化）](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+  :::tip
+  2024年5月16日，VMware官宣 Workstation 和 Fusion 对个人使用完全免费，企业许可转向订阅。
+  
+  具体可参看[官方博客](https://blogs.vmware.com/china/2024/05/16/workstation-%E5%92%8C-fusion-%E5%AF%B9%E4%B8%AA%E4%BA%BA%E4%BD%BF%E7%94%A8%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%EF%BC%8C%E4%BC%81%E4%B8%9A%E8%AE%B8%E5%8F%AF%E8%BD%AC%E5%90%91%E8%AE%A2%E9%98%85/)
+  :::
+
+- **简介**：
+  VMware Fusion 是由 VMware 公司为 Apple Mac 计算机开发的一款虚拟机管理程序。它允许在 Mac 计算机中以虚拟机的形式运行 Microsoft Windows、Linux、NetWare 或 Solaris 等操作系统。
 
 ---
 
@@ -1735,19 +2038,69 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Windows App <Badge text="使用中" type="info" vertical="top" /><span id="WindowsApp"/>
 
-待更新
+![Windows](/assets/postsimages/2024-08-28-macOS软件工具列表/Windows_App.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12)下载
+    :::tip
+    中国大陆地区的商店里没有上架这款应用，可以在其他区域的 Mac App Store 中下载。
+
+    或者在 AppCenter 中下载 [Windows App Beta](https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac)版本。这应该是中国大陆用户可以直接获得的官方 Windows App 了，虽然是 Beta 版。
+    :::
+
+- [官方网站](https://adoption.microsoft.com/zh-cn/windows-app/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  微软新推出的 Windows App 实际上就是一款全新的远程桌面工具，旨在取代传统的远程桌面应用。它为各种设备提供了统一且稳定的使用体验，让你可以在任何地方安全地访问你的 Windows 资源。
+
+  无论是连接到 Windows 365、Azure 虚拟桌面、远程桌面、远程桌面服务还是 Microsoft Dev Box，Windows App 都能让这个过程变得更加简单、直观。你只需要打开这个应用，就能轻松管理和使用这些资源。
+
+  它不仅为 IT 管理员提供了更高的安全性和更简便的管理方式，也让普通用户能够根据自己的工作习惯来定制使用体验。以下是 Windows App 的几大亮点：
+
+  - **一站式访问**：通过一个简洁的界面，即可管理和访问各种 Windows 服务，包括云 PC、虚拟桌面和本地 PC。
+  - **个性化体验**：你可以自定义应用主界面，支持多显示器，还能动态调整显示分辨率，打造专属于你的使用界面。
+  - **体验升级**：Windows App 支持设备重定向、针对 Microsoft Teams 进行了优化，并提供了便捷的账户切换功能，大大提升了远程工作的效率。
 
 ---
 
 ### WindTerm <Badge text="使用中" type="info" vertical="top" /><span id="WindTerm"/>
 
-待更新
+![WindTerm](/assets/postsimages/2024-08-28-macOS软件工具列表/WindTerm.png =200x)
+
+- **下载**
+  - 通过 [Github](https://github.com/kingToolbox/WindTerm/releases)下载
+
+- [Github 项目地址](https://github.com/kingToolbox/WindTerm/)
+  :::tip
+  没有官方网站，但是也可以看看[开发者的博客](https://kingtoolbox.github.io/)，开发者会不定期的在博客中更新产品的各种新功能介绍。
+  :::
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+  WindTerm 是一款基于 C 开发的开源免费且功能强大的终端软件，无论是在 Windows、macOS 还是 Linux 操作系统上，WindTerm 都能提供出色的性能和稳定性。WindTerm 支持 SSH/Telnet/Serial/Shell/Sftp 等多种协议，适用于远程登录和管理各种操作系统。它的界面简洁直观，使用起来非常方便。
+
+  对我自己而言，最让我欲罢不能的其实是它的配色做的非常棒。它甚至可以给日志文件和普通的输出针对不同类型的数据分配不同的配色。例如，下图中，执行 `ip addr` 命令的时候，普通终端是不会为 IP 地址，纯数字进行配色显示的，而这个终端工具就可以。
+
+  ![WindTerm 截图](/assets/postsimages/2024-08-28-macOS软件工具列表/WindTerm截图.png)
 
 ---
 
 ### Wireshark <Badge text="使用中" type="info" vertical="top" /><span id="Wireshark"/>
 
-待更新
+![Wireshark](/assets/postsimages/2024-08-28-macOS软件工具列表/Wireshark.png =200x)
+
+- **下载**
+  - 通过 [官网](https://www.wireshark.org/download.html)下载
+
+- [官方网站](https://www.wireshark.org/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+ WireShark 是非常流行的网络封包分析工具，可以截取各种网络数据包，并显示数据包详细信息。常用于开发测试过程中各种问题定位。
 
 ---
 
@@ -1788,13 +2141,35 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ### Xmind <Badge text="使用中" type="info" vertical="top" /><span id="Xmind"/>
 
-待更新
+![Xmind](/assets/postsimages/2024-08-28-macOS软件工具列表/Xmind.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/xmind-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/id1327661892?mt=12) 下载
+
+- [官方网站](https://xmind.app/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" /> + <Badge text="收费" type="danger" vertical="baseline" />
+  普通版免费，专业版收费。具体费用在[官网](https://xmind.app/pricing/)中有说明。
+
+- **简介**：
+  Xmind 作为一款全功能的思维导图&头脑风暴的软件，是全平台都好用的思维工具。Xmind 可以应用于头脑风暴、激发创意、高效整理、问题解决、项目管理、高效沟通等多种场景，让思维更清晰、想问题和做事情更有条理。
 
 ---
 
 ### XnConvert <Badge text="使用中" type="info" vertical="top" /><span id="XnConvert"/>
 
-待更新
+![XnConvert](/assets/postsimages/2024-08-28-macOS软件工具列表/XnConvert.png =200x)
+
+- **下载**
+  - 通过 [Mac App Store](https://apps.apple.com/cn/app/xnconvert/id436203431?mt=12) 下载
+
+- [官方网站](https://www.xnview.com/en/xnconvert/)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+  个人用途和教育用途免费，但是商用是要收费的，具体收费细节可以查看[官方说明](https://www.xnview.com/en/xnconvert/#downloads)。
+
+- **简介**：
+  XNConvert 是一个快速，功能强大且免费的跨平台批处理图像转换器。它允许自动化照片集的编辑：您可以轻松地旋转，转换和压缩图像，照片和图片，并采用 80 多个操作（例如调整大小，裁剪，颜色调整，过滤器，...）。支持所有常见的图片和图形格式（JPEG，TIFF，PNG，GIF，WebP，PSD，JPEG2000，JPEG-XL，OpenEXR，Camera RAW，HEIC，HEIC，PDF，DNG，DNG，CR2）。您可以保存并重新使用预设以进行另一批图像转换。
 
 ---
 
