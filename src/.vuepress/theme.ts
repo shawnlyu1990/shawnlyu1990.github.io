@@ -108,7 +108,7 @@ export default hopeTheme(
     markdown: {
       align: true,
       attrs: true,
-      //codetabs: true,
+      codeTabs: true,
       component: true,
       demo: true,
       figure: true,
