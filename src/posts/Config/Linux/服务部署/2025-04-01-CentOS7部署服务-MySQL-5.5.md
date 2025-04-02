@@ -207,12 +207,25 @@ chown -R mysql:mysql /var/log/mariadb/
 如果出现类似下面的报错，则需要手动创建 MySQL 运行目录。
 `/usr/local/mysql-5.5.28/bin/mysqld: Can't create/write to file '/var/run/mariadb/mariadb.pid' (Errcode:2)`
 
-解决方法：
+临时解决方法：
 
 ```shell
 mkdir -p /var/run/mariadb/
 chown -R mysql:mysql /var/run/mariadb/
 ```
+
+但是 `/var/run/` 是指向 `/run` 的软连接，`/run` 是挂载在临时文件的系统里的，即在系统启动后，添加在里面的数据、文件都是写入内存的，因此重启后手动写入的数据会丢失。
+
+最好的办法是在 `/usr/lib/tmpfiles.d/` 目录中创建一个 `mysql.conf` 配置文件。因为 systemd-tmpfiles 会根据 `/etc/tmpfiles.d/*.conf`、`/run/tmpfiles.d/*.conf`、`/usr/lib/tmpfiles.d/*.conf` 三个位置的配置文件决定如何创建、删除、清理 易变文件与临时文件以及易变目录与临时目录。
+
+彻底解决方法：
+
+```shell
+echo "d /run/mariadb 0755 mysql mysql -" > /usr/lib/tmpfiles.d/mysql.conf
+```
+
+参考资料：
+https://insp.top/content/why-lost-tmpfile-after-system-reboot
 
 :::
 
@@ -250,7 +263,7 @@ pid-file=/var/run/mariadb/mariadb.pid
 特别是 `datadir` 行、 `basedir` 行和 `socket` 行与预期不一致，因此修改如下。
 
 ```ssh-config title="/etc/my.cnf"
-# 自动生成的配置文件
+# 修改后的配置文件
 [mysqld]
 basedir=/usr/local/mysql-5.5.28/
 datadir=/usr/local/mysql-5.5.28/data/

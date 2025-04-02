@@ -124,7 +124,7 @@ export default sidebar({
   "/posts/Config/": [
     {
       text: "数据库",
-      icon: "/assets/blogicons/数据库服务器.png",
+      icon: "/assets/blogicons/数据库.png",
       prefix: "Database/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
