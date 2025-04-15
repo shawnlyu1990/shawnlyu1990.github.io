@@ -51,4 +51,4 @@ jobs:
         with:
           # 部署文档
           branch: gh-pages
-          folder: newblog/.vuepress/dist
+          folder: src/.vuepress/dist
