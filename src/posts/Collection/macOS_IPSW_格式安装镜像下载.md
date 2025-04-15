@@ -40,19 +40,23 @@ comment: false
 ---
 
 :::important
-本页内容搬运自以下网站和苹果官方网站。
-
-<SiteInfo
-  name="Apple Silicon M1/M2/M3/M4 macOS IPSW Firmware Restore Files Database"
-  desc="Mr. Macintosh 收集的 M 系列芯片安装镜像（ipsw 格式）下载源。当发布新更新时，当 macOS 有正式版或 Beta 版发布时会跟随更新。"
-  url="https://mrmacintosh.com/apple-silicon-m1-full-macos-restore-ipsw-firmware-files-database/"
+**本页内容搬运自以下网站和苹果官方网站。**
+<VPBanner
+  title="Apple Silicon macOS IPSW Firmware Restore Files Database"
+  content="Mr. Macintosh 收集的 M 系列芯片安装镜像（ipsw 格式）下载源。当 macOS 有新的正式版或 Beta 版发布时，该站点会跟随更新。"
   logo="https://mrmacintosh.com/wp-content/uploads/2020/01/cropped-Mr-Macintosh_Update-03_Smaller.png"
-  preview="https://mrmacintosh.com/apple-silicon-m1-full-macos-restore-ipsw-firmware-files-database/"
+  :actions='[
+    {
+      text: "访问",
+      link: "https://mrmacintosh.com/apple-silicon-m1-full-macos-restore-ipsw-firmware-files-database/",
+      type: "default",
+    },
+  ]'
 />
 :::
 
 :::tip
-**下面所有下载链接直接来自 Apple 的 SUS 服务器。**
+**下面所有下载链接都会直接跳转到 Apple 的 SUS 服务器。**
 
 **如果下载链接在单击时不起作用，则可能需要复制链接并将其粘贴到新选项卡中。**
 :::
@@ -60,6 +64,27 @@ comment: false
 ## macOS Sequoia 正式版 IPSW 固件文件
 
 <div class="vp-card-container">
+  <VPCard
+    title="macOS Sequoia 15.4（24E248）"
+    desc="发布日期：2025/03/31"
+    logo="/assets/postsimages/2025-02-21-macOS_IPSW_格式安装镜像下载/macos-sequoia-2024-10-08.webp"
+    link="https://updates.cdn-apple.com/2025SpringFCS/fullrestores/082-16517/AACDDC33-9683-4431-98AF-F04EF7C15EE3/UniversalMac_15.4_24E248_Restore.ipsw"
+    background="rgba(253, 230, 138, 0.15)"
+  />
+  <VPCard
+    title="macOS Sequoia 15.3.2（24D81）"
+    desc="发布日期：2025/03/11"
+    logo="/assets/postsimages/2025-02-21-macOS_IPSW_格式安装镜像下载/macos-sequoia-2024-10-08.webp"
+    link="https://updates.cdn-apple.com/2025WinterFCS/fullrestores/082-01504/828B8EF9-8134-49D5-B24A-0BA504FC5ECC/UniversalMac_15.3.2_24D81_Restore.ipsw"
+    background="rgba(253, 230, 138, 0.15)"
+  />
+  <VPCard
+    title="macOS Sequoia 15.3.2（24D2082）<b><font color='red'>（NEW M4 ONLY）</font></b>"
+    desc="发布日期：2025/03/11"
+    logo="/assets/postsimages/2025-02-21-macOS_IPSW_格式安装镜像下载/macos-sequoia-2024-10-08.webp"
+    link="https://updates.cdn-apple.com/2025WinterFCS/fullrestores/082-04090/64618943-2D74-423D-8493-DE066DF1ADD8/UniversalMac_15.3.2_24D2082_Restore.ipsw"
+    background="rgba(253, 230, 138, 0.15)"
+  />
   <VPCard
     title="macOS Sequoia 15.3.1（24D70）"
     desc="发布日期：2025/02/10"

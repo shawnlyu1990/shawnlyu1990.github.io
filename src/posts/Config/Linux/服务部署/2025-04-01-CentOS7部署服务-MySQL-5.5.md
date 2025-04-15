@@ -1,8 +1,8 @@
 ---
 # 文章标题
-title: CentOS 7 部署服务 - MySQL 5.5.28
+title: CentOS 7 部署服务 - MySQL 5.5.28 (源码编译)
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
-shortTitle: CentOS 7 部署服务 - MySQL 5.5.28
+shortTitle: CentOS 7 部署服务 - MySQL 5.5.28 (源码编译)
 # 当前页面内容描述。
 description: MySQL 5.5.28 其实是比较老的版本了，官方只提供了 CentOS 4、5、6 版本的 RPM 包，但因为一些原因需要在 CentOS 7 中安装部署 MySQL 5.5.28 版本，找了很多资料，最终只能使用源码编译安装的方法。这里记录一下我的安装过程，已备后续参考。
 # 当前页面的图标，建议填写
@@ -74,7 +74,6 @@ useradd -r -g mysql mysql
 ```shell
 # 此操作位于 /root/ 目录下
 mkdir -p /usr/local/mysql-5.5.28/data/
-mkdir -p /usr/local/mysql-5.5.28/etc/
 ```
 
 ## 2. 下载 MySQL 源码包

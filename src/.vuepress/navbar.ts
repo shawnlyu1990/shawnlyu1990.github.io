@@ -56,14 +56,6 @@ export default navbar([
             icon: "/assets/blogicons/macos.png",
             link: "/posts/Collection/macOS_IPSW_格式安装镜像下载.md",
           },
-          {
-            text: "功能项目主页测试",
-            link: "/posts/Collection/功能项目主页测试.md",
-          },
-          {
-            text: "亮点项目主页测试",
-            link: "/posts/Collection/亮点项目主页测试.md",
-          },
         ],
       },
     ],
