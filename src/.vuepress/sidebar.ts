@@ -141,6 +141,16 @@ export default sidebar({
           expanded: false,
           children: "structure",
         },
+        {
+          text: "MySQL",
+          icon: "/assets/blogicons/MySQL.png",
+          prefix: "MySQL/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
       ],
     },
     {

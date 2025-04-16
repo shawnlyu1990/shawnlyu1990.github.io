@@ -137,6 +137,37 @@ export default hopeTheme(
       tasklist: true,
       vPre: true,
 
+      highlighter: {
+        type: "shiki", // or "prismjs"
+
+        // shiki 或 prismjs 选项
+        // 差异标记
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E5%B7%AE%E5%BC%82%E6%A0%87%E8%AE%B0
+        notationDiff: true,
+        // 行折叠
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E8%A1%8C%E6%8A%98%E5%8F%A0
+        collapsedLines: true,
+        // 聚焦标记
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E8%81%9A%E7%84%A6%E6%A0%87%E8%AE%B0
+        notationFocus: true,
+        // 高亮标记
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E9%AB%98%E4%BA%AE%E6%A0%87%E8%AE%B0
+        notationHighlight: true,
+        // 错误级别标记
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E9%94%99%E8%AF%AF%E7%BA%A7%E5%88%AB%E6%A0%87%E8%AE%B0
+        notationErrorLevel: true,
+        // 词高亮标记
+        // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E8%AF%8D%E9%AB%98%E4%BA%AE%E6%A0%87%E8%AE%B0
+        notationWordHighlight: true,
+        // 空白符渲染
+        // true: 启用空白符渲染，等同于 all
+        // false: 禁用空白符渲染
+        // 'all': 渲染所有空白符
+        // 'boundary': 仅渲染行首行尾的空白符
+        // 'trailing': 仅渲染行尾的空白符
+        whitespace: true,
+      },
+
       // install chart.js before enabling it
       // chart: true,
 
@@ -230,7 +261,7 @@ export default hopeTheme(
           "VPBanner",
           "VPCard",
           "VidStack",
-          "XiGua",
+          //"XiGua",
         ],
       },
 
