@@ -1,6 +1,6 @@
 ---
 # 文章标题
-title: 【FAQ】2020-05-19-PostgreSQL修改数据目录方法记录
+title: 【FAQ】PostgreSQL 修改数据目录方法记录
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: PgSQL 修改数据目录的方法
 # 当前页面内容描述。

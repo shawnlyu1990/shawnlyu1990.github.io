@@ -65,6 +65,13 @@ comment: false
 
 <div class="vp-card-container">
   <VPCard
+    title="macOS Sequoia 15.4.1（24E263）"
+    desc="发布日期：2025/04/16"
+    logo="/assets/postsimages/2025-02-21-macOS_IPSW_格式安装镜像下载/macos-sequoia-2024-10-08.webp"
+    link="https://updates.cdn-apple.com/2025SpringFCS/fullrestores/082-23340/61923341-EE73-4C6E-BB3E-DAB3069548BF/UniversalMac_15.4.1_24E263_Restore.ipsw"
+    background="rgba(253, 230, 138, 0.15)"
+  />
+  <VPCard
     title="macOS Sequoia 15.4（24E248）"
     desc="发布日期：2025/03/31"
     logo="/assets/postsimages/2025-02-21-macOS_IPSW_格式安装镜像下载/macos-sequoia-2024-10-08.webp"
