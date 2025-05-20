@@ -121,123 +121,30 @@ export default sidebar({
       ],
     },
   ],
-  "/posts/Config/": [
+  "/posts/Config/VMware/": [
     {
-      text: "数据库",
-      icon: "/assets/blogicons/数据库.png",
-      prefix: "Database/",
+      text: "VMware 桌面虚拟化",
+      icon: "/assets/blogicons/VMware-Workstation.png",
+      prefix: "VMware Desktop Hypervisor/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false
       expanded: false,
       children: [
         {
-          text: "PostgreSQL",
-          icon: "/assets/blogicons/PostgreSQL.png",
-          prefix: "PostgreSQL/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: false,
-          children: "structure",
-        },
-        {
-          text: "MySQL",
-          icon: "/assets/blogicons/MySQL.png",
-          prefix: "MySQL/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: false,
-          children: "structure",
-        },
-      ],
-    },
-    {
-      text: "云和虚拟化",
-      icon: "/assets/blogicons/云.png",
-      prefix: "CloudAndVMs/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: [
-        {
-          text: "VMware",
-          icon: "/assets/blogicons/VMW.png",
-          prefix: "VMware/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: false,
-          children: [
-            {
-              text: "VMware Desktop Hypervisor",
-              icon: "/assets/blogicons/VMware-Workstation.png",
-              prefix: "VMware Desktop Hypervisor/",
-              // 设置分组是否可以折叠，默认值是 false
-              collapsible: true,
-              // 设置分组是否默认展开，默认值是 false
-              expanded: false,
-              children: "structure",
-            },
-            {
-              text: "VMware vSphere",
-              icon: "/assets/blogicons/VMwarevSphere.png",
-              prefix: "VMware vSphere/",
-              // 设置分组是否可以折叠，默认值是 false
-              collapsible: true,
-              // 设置分组是否默认展开，默认值是 false
-              expanded: false,
-              children: "structure",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      text: "macOS",
-      icon: "/assets/blogicons/Apple.png",
-      prefix: "macOS/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: "structure",
-    },
-    {
-      text: "Windows",
-      icon: "/assets/blogicons/Windows.png",
-      prefix: "Windows/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: "structure",
-    },
-    {
-      text: "Linux",
-      icon: "/assets/blogicons/Linux.png",
-      prefix: "Linux/",
-      // 设置分组是否可以折叠，默认值是 false
-      collapsible: true,
-      // 设置分组是否默认展开，默认值是 false
-      expanded: false,
-      children: [
-        {
-          text: "标准规范",
-          icon: "/assets/blogicons/规则手册.png",
-          prefix: "标准规范/",
-          // 设置分组是否可以折叠，默认值是 false
-          collapsible: true,
-          // 设置分组是否默认展开，默认值是 false
-          expanded: false,
-          children: "structure",
-        },
-        {
-          text: "服务部署",
+          text: "安装部署",
           icon: "/assets/blogicons/部署.png",
-          prefix: "服务部署/",
+          prefix: "Install/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "配置",
+          icon: "/assets/blogicons/工具.png",
+          prefix: "Config/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
           // 设置分组是否默认展开，默认值是 false
@@ -257,18 +164,38 @@ export default sidebar({
       ],
     },
     {
-      text: "代码片段",
-      icon: "/assets/blogicons/源代码.png",
-      prefix: "CodeSnippets/",
+      text: "VMware vSphere",
+      icon: "/assets/blogicons/VMwarevSphere.png",
+      prefix: "VMware vSphere/",
       // 设置分组是否可以折叠，默认值是 false
       collapsible: true,
       // 设置分组是否默认展开，默认值是 false
       expanded: false,
       children: [
         {
-          text: "Bash",
-          icon: "/assets/blogicons/Bash.png",
-          prefix: "Bash/",
+          text: "安装部署",
+          icon: "/assets/blogicons/部署.png",
+          prefix: "Install/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "配置",
+          icon: "/assets/blogicons/工具.png",
+          prefix: "Config/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "FAQ",
+          icon: "/assets/blogicons/常问问题.png",
+          prefix: "FAQ/",
           // 设置分组是否可以折叠，默认值是 false
           collapsible: true,
           // 设置分组是否默认展开，默认值是 false
@@ -276,6 +203,240 @@ export default sidebar({
           children: "structure",
         },
       ],
+    },
+  ],
+  "/posts/Config/Database/": [
+    {
+      text: "PostgreSQL",
+      icon: "/assets/blogicons/PostgreSQL.png",
+      prefix: "PostgreSQL/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: [
+        {
+          text: "安装部署",
+          icon: "/assets/blogicons/部署.png",
+          prefix: "Install/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "配置",
+          icon: "/assets/blogicons/工具.png",
+          prefix: "Config/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "FAQ",
+          icon: "/assets/blogicons/常问问题.png",
+          prefix: "FAQ/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+      ],
+    },
+    {
+      text: "MySQL",
+      icon: "/assets/blogicons/MySQL.png",
+      prefix: "MySQL/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: [
+        {
+          text: "安装部署",
+          icon: "/assets/blogicons/部署.png",
+          prefix: "Install/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "配置",
+          icon: "/assets/blogicons/工具.png",
+          prefix: "Config/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+        {
+          text: "FAQ",
+          icon: "/assets/blogicons/常问问题.png",
+          prefix: "FAQ/",
+          // 设置分组是否可以折叠，默认值是 false
+          collapsible: true,
+          // 设置分组是否默认展开，默认值是 false
+          expanded: false,
+          children: "structure",
+        },
+      ],
+    },
+  ],
+  "/posts/Config/macOS/": [
+    {
+      text: "安装部署",
+      icon: "/assets/blogicons/部署.png",
+      prefix: "Install/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "配置",
+      icon: "/assets/blogicons/工具.png",
+      prefix: "Config/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "FAQ",
+      icon: "/assets/blogicons/常问问题.png",
+      prefix: "FAQ/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+  ],
+  "/posts/Config/Windows/": [
+    {
+      text: "安装部署",
+      icon: "/assets/blogicons/部署.png",
+      prefix: "Install/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "配置",
+      icon: "/assets/blogicons/工具.png",
+      prefix: "Config/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "FAQ",
+      icon: "/assets/blogicons/常问问题.png",
+      prefix: "FAQ/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+  ],
+  "/posts/Config/Linux/": [
+    {
+      text: "标准&规范",
+      icon: "/assets/blogicons/规则手册.png",
+      prefix: "Standard/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "安装部署",
+      icon: "/assets/blogicons/部署.png",
+      prefix: "Install/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "配置",
+      icon: "/assets/blogicons/工具.png",
+      prefix: "Config/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "FAQ",
+      icon: "/assets/blogicons/常问问题.png",
+      prefix: "FAQ/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+  ],
+  "/posts/Config/Docker/": [
+    {
+      text: "安装部署",
+      icon: "/assets/blogicons/部署.png",
+      prefix: "Install/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "配置",
+      icon: "/assets/blogicons/工具.png",
+      prefix: "Config/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+    {
+      text: "FAQ",
+      icon: "/assets/blogicons/常问问题.png",
+      prefix: "FAQ/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
+    },
+  ],
+  "/posts/Config/CodeSnippets/": [
+    {
+      text: "BASH",
+      icon: "/assets/blogicons/Bash.png",
+      prefix: "Bash/",
+      // 设置分组是否可以折叠，默认值是 false
+      collapsible: true,
+      // 设置分组是否默认展开，默认值是 false
+      expanded: false,
+      children: "structure",
     },
   ],
   "/posts/uncategorized/": [

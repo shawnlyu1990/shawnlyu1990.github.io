@@ -1,13 +1,12 @@
 ---
-title: 云和虚拟化
+title: Docker
 index: false
-icon: "/assets/blogicons/云.png"
+icon: /assets/blogicons/Docker.png
 article: false
 timeline: false
 comment: false
 category:
-  - VM
-  - Cloud
+  - 容器
 ---
 
 <div class="catalog-display-container">

@@ -139,7 +139,7 @@ export default hopeTheme(
 
       highlighter: {
         type: "shiki", // or "prismjs"
-
+        lineNumbers: false,
         // shiki 或 prismjs 选项
         // 差异标记
         // https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html#%E5%B7%AE%E5%BC%82%E6%A0%87%E8%AE%B0

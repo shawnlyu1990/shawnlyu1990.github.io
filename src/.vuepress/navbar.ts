@@ -25,15 +25,16 @@ export default navbar([
     ],
   },
   {
-    text: "配置技巧",
+    text: "软件/工具/配置/服务",
     icon: "/assets/blogicons/计算机设置.png",
     children: [
       "/posts/Config/Database/",
-      "/posts/Config/CloudAndVMs/",
+      "/posts/Config/VMware/",
       "/posts/Config/macOS/",
       "/posts/Config/Windows/",
       "/posts/Config/Linux/",
       "/posts/Config/CodeSnippets/",
+      "/posts/Config/Docker/",
     ],
   },
   {
