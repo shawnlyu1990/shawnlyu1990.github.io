@@ -64,6 +64,7 @@ comment: false
 3. 从 docker 官方下载并导入 docker-ce 的源
 
     ```bash
+
     yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     ```
 
@@ -71,10 +72,11 @@ comment: false
     如果官方源访问不了或者很慢的话，也可以使用国内的 docker 源。
 
     ```bash
+
     yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
     ```
 
-    不过，这里你如果用了国内的源的话，我建议你上面 `CentOS-Base.repo` 那里也换成相同的国内源。
+    不过，这里你如果用了国内的源的话，我建议你 `CentOS-Base.repo` 那里也换成相同的国内源。
 
     :::
 
@@ -133,6 +135,7 @@ comment: false
 1. 运行 ubuntu 容器
 
     ```bash
+
     docker run -itd --name ubuntu-2404-xfce-x86_64 --shm-size=512m -p 3522:22 ubuntu:noble-20250415.1
     ```
 
@@ -170,6 +173,7 @@ comment: false
 3. 安装必要的工具和软件
 
     ```bash
+
     apt install -y vim sudo wget curl tcpdump net-tools xrdp openssh-server unzip bzip2 namp
     ```
 
@@ -206,8 +210,9 @@ comment: false
     # /etc/environment and /etc/default/locale to initialise the
     # locale and the user environment properly.
     
-    unset DBUS_SESSION_BUS_ADDRESS # [!code ++]
-    unset XDG_RUNTIME_DIR # [!code ++]
+    # 添加以下两行
+    unset DBUS_SESSION_BUS_ADDRESS
+    unset XDG_RUNTIME_DIR
     
     if test -r /etc/profile; then
             . /etc/profile
@@ -217,22 +222,32 @@ comment: false
             . ~/.profile
     fi
     
-    test -x /etc/X11/Xsession && exec /etc/X11/Xsession # [!code --]
-    #test -x /etc/X11/Xsession && exec /etc/X11/Xsession # [!code ++]
-    exec /bin/sh /etc/X11/Xsession # [!code --]
-    #exec /bin/sh /etc/X11/Xsession # [!code ++]
-    startxfce4 # [!code ++]
+    # 注释以下两行
+    #test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+    #exec /bin/sh /etc/X11/Xsession
+    
+    # 添加以下内容
+    startxfce4
     ```
 
-2. 编辑 xrdp 配置文件 `/etc/xrdp/xrdp.ini`，让远程桌面更好用。
+2. 调整 xrdp 配置文件 `/etc/xrdp/xrdp.ini`，来优化远程桌面质量。
 
     ```ini :line-numbers title="/etc/xrdp/xrdp.ini"
     ……
-    max_bpp=32 //[!code --]
-    max_bpp=128 //[!code ++]
+    # 启用数据压缩，从而减少需要通过网络传输的数据量。
+    # 位图压缩？
+    bitmap_compression=true
+    # 批量压缩
+    bulk_compression=true
     ……
-    xserverbpp=24 //[!code --]
-    xserverbpp=128 //[!code ++]
+    # 每个像素最大位数，32/24/16/8
+    #max_bpp=32
+    max_bpp=128
+    ……
+    # 这会禁用加密，加密可以通过减少服务器上的CPU使用率来提高性能。
+    # 但是，只有在通过安全网络连接时才能这样做。
+    #crypt_level=high
+    crypt_level=none
     ……
     ```
 
@@ -242,7 +257,28 @@ comment: false
 
     :::
 
-3. 设置系统在启动 x 会话时使用 xfce4 作为默认的会话管理器。
+3. 调整 xrdp 配置文件 `/etc/xrdp/sesman.ini`，来优化远程桌面性能。
+
+    ```ini :line-numbers title="/etc/xrdp/sesman.ini"
+    ……
+    # 杀掉断开的会话
+    #KillDisconnected=false
+    KillDisconnected=true
+    ……
+    # 断开会话的超时时间
+    # 设置为 0 可以立即终止断开的会话
+    DisconnectedTimeLimit=0
+    ……
+
+    ```
+
+    ::: tip
+
+    这个配置可改可不改，改了似乎可以提升远程桌面的性能，不改也可以正常访问远程桌面，这里我建议，如果远程桌面用起来没啥问题的话就不要改了，后面碰到问题再改不迟。
+
+    :::
+
+4. 设置系统在启动 x 会话时使用 xfce4 作为默认的会话管理器。
 
     ```bash
     su - user
@@ -266,6 +302,7 @@ comment: false
 3. 安装中文输入法
 
     ```bash
+
     apt install -y fcitx5 fcitx5-chinese-addons fcitx5-frontend-gtk4 fcitx5-frontend-gtk3 fcitx5-frontend-gtk2 fcitx5-frontend-qt5
     ```
 
@@ -289,6 +326,7 @@ comment: false
 5. 配置 Fcitx 5 开机自动启动
 
     ```bash
+
     mkdir -p ~/.config/autostart && cp /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart
     ```
 
