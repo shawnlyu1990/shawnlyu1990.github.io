@@ -1,6 +1,6 @@
 ---
 # 文章标题
-title: Windows 设置网卡 MTU
+title: 【功能配置】Windows 设置网卡 MTU
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: Windows 设置网卡 MTU
 # 当前页面内容描述。
