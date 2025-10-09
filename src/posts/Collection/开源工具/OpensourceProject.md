@@ -73,4 +73,20 @@ comment: false
     repo="https://github.com/fatedier/frp"
     preview="/assets/postsimages/OpensourceProject/frp/dashboard.png"
   />
+  <SiteInfo
+    name="Portr"
+    desc="自托管隧道工具，可以用来临时将内网端口暴露在公网。"
+    logo="/assets/postsimages/OpensourceProject/Portr/portr_logo.svg"
+    url="https://portr.dev/"
+    repo="https://github.com/amalshaji/portr"
+    preview=""
+  />
+  <SiteInfo
+    name="RustScan"
+    desc="RustScan 是一款由 Rust 编写的现代化端口扫描工具，它以超高的扫描速度、强大的脚本拓展能力以及自适应学习成为业界顶尖工具。简单来说，它就是一个能快速找到目标端口并助你完成下一步分析的 Swiss Army Knife。"
+    logo="/assets/postsimages/OpensourceProject/RustScan/rustscan.png"
+    url="https://github.com/bee-san/RustScan/"
+    repo="https://github.com/bee-san/RustScan/"
+    preview="/assets/postsimages/OpensourceProject/RustScan/fast.gif"
+  />
 </div>

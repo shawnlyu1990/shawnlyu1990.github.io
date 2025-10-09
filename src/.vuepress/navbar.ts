@@ -35,6 +35,7 @@ export default navbar([
       "/posts/Config/Linux/",
       "/posts/Config/CodeSnippets/",
       "/posts/Config/Docker/",
+      "/posts/Config/RegularExpression/",
     ],
   },
   {

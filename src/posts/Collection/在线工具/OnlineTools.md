@@ -57,15 +57,29 @@ comment: false
   <SiteInfo
     name="Napkin"
     desc="Napkin 将你的文字转变成可视化图表，可用于在个人博客或 PPT 中进行数据展示。"
-    logo="https://www.napkin.ai/assets/napkin-logo-2024-beta.svg"
+    logo="https://www.napkin.ai/favicon-32x32.png?v=2"
     url="https://www.napkin.ai/"
     preview="/assets/postsimages/OnlineTools/Napkin_preview.png"
   />
   <SiteInfo
     name="Google NotebookLM"
     desc="NotebookLM 是一款 AI 赋能的研究和撰写助理，最适合与您上传的来源配合使用。可以用作个人知识库的建立。"
-    logo="https://notebooklm.google.com/_/static/branding/v5/light_mode/notebook-logo.svg"
+    logo="https://notebooklm.google.com/_/static/branding/v5/dark_mode/favicon/favicon.svg"
     url="https://notebooklm.google.com/"
     preview="/assets/postsimages/OnlineTools/NotebookLM_preview.png"
+  />
+  <SiteInfo
+    name="IP 报文格式大全"
+    desc="IP报文格式大全，主要包含了数据传输过程中用到的各种协议的数据包格式、报文示例。通过IP报文格式大全光盘，能够对各个协议报文有直观的认识，增强对各个协议报文的理解。"
+    logo="https://support.huawei.com/hedex/api/pages/EDOC1000105967/AZI0130X/17/resources/hedex.css/logo.gif"
+    url="https://support.huawei.com/hedex/hdx.do?docid=EDOC1000105967&id=ZH-CN_CONCEPT_0254009101"
+    preview="/assets/postsimages/OnlineTools/协议地图_preview.png"
+  />
+  <SiteInfo
+    name="MySQL 历史版本下载页面"
+    desc="MySQL Community Server（已归档版本）下载页面。"
+    logo="https://labs.mysql.com/common/logos/mysql-logo.svg?v2"
+    url="https://downloads.mysql.com/archives/community/"
+    preview="/assets/postsimages/OnlineTools/MySQL_Product_Archives_preview.png"
   />
 </div>

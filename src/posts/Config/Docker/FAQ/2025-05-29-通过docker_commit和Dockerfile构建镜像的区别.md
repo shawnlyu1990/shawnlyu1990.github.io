@@ -109,7 +109,7 @@ Dockerfile 的流程清晰，可扩展性强，构建出来的镜像可以保持
 
 以下是 docker commit 方式制作镜像和使用 dockerfile 方式制作镜像的核心差异点。
 
-| 维度 | docker commit | Dockerfile |
+| <div style="width:80px">维度</div> | docker commit | Dockerfile |
 | :---: | :--- | :--- |
 | 构建方式 | 手工操作容器 | 声明式自动化构建 |
 | 可维护性 | 无版本记录，难追溯 | 完整构建历史，Git 可管理 |

@@ -951,6 +951,28 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ---
 
+### Input Source Pro <Badge text="使用中" type="info" vertical="top" /><span id="InputSourcePro"/>
+
+![Input Source Pro](/assets/postsimages/2024-08-28-macOS软件工具列表/Input_Source_Pro.png =200x)
+
+- **下载**
+  - 通过 [Github](https://github.com/runjuu/InputSourcePro) 下载
+
+- [官方网站](https://inputsource.pro/zh-CN)
+
+- **费用**：<Badge text="免费" type="tip" vertical="baseline" />
+
+- **简介**：
+
+    Input Source Pro 是一款免费的开源 macOS 实用程序，专为经常切换输入法的多语言用户而设计。它根据活动应用程序（甚至您正在浏览的特定网站）自动切换输入源，从而显着提高您的工作效率和打字体验。
+
+    **特性**：
+    - **自动展示当前输入法**：长按鼠标左键、切换输入法以及在切换 App 时，展示当前正在使用的输入法类型。
+    - **根据应用切换输入法**：为不同 App 设定默认的输入法类型，在每次使用时不再浪费时间手动切换。当然啦，在使用 Spotlight 这类应用时也能自动切换。
+    - **根据网站切换输入法**：通过自定义规则，能够根据浏览器当前页面自动切换输入法。目前已支持 Safari、Chrome、Edge、Firefox、Brave、Vivaldi 以及 Arc 浏览器。
+
+---
+
 ### iStat Menus <Badge text="使用中" type="info" vertical="top" /><span id="iStatMenus"/>
 
 ![iStat Menus](/assets/postsimages/2024-08-28-macOS软件工具列表/iStat_Menus.png =200x)
@@ -1007,7 +1029,7 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 - **费用**：<Badge text="免费" type="tip" vertical="baseline" />
 
 - **简介**：
-    这个是我之前在研究跨设备共享剪贴板的时候发现的。虽然它最开始是被设计用来连接电脑和手机的，但不妨碍它可以在任意两台设备（比如两台电脑）之间共享剪贴板。**但要求是必须在同一局域网下。**
+    这个是我之前在研究跨设备共享剪贴板的时候发现的。虽然它最开始是被设计用来连接电脑和手机的，但不妨碍它可以在任意两台设备（比如两台电脑）之间共享剪贴板。<font color="red"><b>但要求是必须在同一局域网下。</b></font>
 
     KDE Connect 最早主要是为了满足 Linux 桌面和 Android 手机协同需求而开发的，由于其开源的特性因此被移到了各种平台。
 
@@ -1041,7 +1063,7 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 
 ---
 
-### Keyboard Holder <Badge text="使用中" type="info" vertical="top" /><span id="Keyboard Holder"/>
+### Keyboard Holder <Badge text="收藏" type="warning" vertical="top" /><span id="Keyboard Holder"/>
 
 ![Keyboard Holder](/assets/postsimages/2024-08-28-macOS软件工具列表/KeyboardHolder.png =200x)
 
@@ -1054,6 +1076,9 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 - **费用**：<Badge text="免费" type="tip" vertical="baseline" />
 
 - **简介**：
+
+    跟 [Input Source Pro](#InputSourcePro) 是同一类产品。
+
     Keyboard Holder 是一个 macOS 系统的输入法切换辅助工具。就是它能够在应用切换过程中帮助你自动切换到合适的输入法，免去了应用切换后输入法不对应的烦恼。
 
     在非英语语言环境下的软件环境，避免不了输入法的使用。 我们在不同的场景下，常常会有采用不同语言输入的需求，比如在开发时需要流畅的英文输入环境，写文档、在线沟通交流时则需要中文等母语。操作系统虽然提供了多输入环境的切换功能，它能很好地工作，但是在实际使用过程中，我们对多少输入环境都不是连续和固定一段时间不变。特别当下各种软件提供了丰富多彩的功能，我们在完成一件事情过程中需要在多个软件间不停地切换。 这个时候就需要在不同软件切换后，关注当前的输入环境是否发生变化，需不需要切换输入环境，这个时候常常会发生输入几个字符后才发现当前输入环境不匹配需要切换输入环境。
@@ -1067,6 +1092,10 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
     - 可配置基于域名匹配的输入法方案。
     - 支持聚焦搜索、Alfred、Raycast等应用。
     - 提供多种输入法切换提示，可配置基于屏幕位置显示、跟随鼠标位置。 支持在文本光标位置显示当前使用的输入法。
+
+    **2025 年 06 月更新**
+
+    最近换成 [Input Source Pro](#InputSourcePro)  了，没啥特别的原因。大概就是用腻了？
 
 ---
 
@@ -1126,7 +1155,7 @@ FileZilla Pro 官网如果访问访问不了的话，可能需要用点「魔法
 - **简介**：
     我只用这个软件查看一些图片、音乐、视频的元数据信息，像是时长、分辨率、码率等。免费功能够用，没有付费订阅。
 
-    刚才逛他们官网，发现他们还有线上版的 MediaInfo<https://mediaarea.net/MediaInfoOnline>，但是国内访问有点慢。
+    刚才逛他们官网，发现他们还有线上版的 [MediaInfo](https://mediaarea.net/MediaInfoOnline)，但是国内访问有点慢。
 
     ::: important 备注
     Mac App Store 上还有一个叫「文件眼」的软件，作者明确说了，是 MediaInfo 的替代品，我简单扫了一眼，功能还挺全，等回头哪天有时间下下来体验一下。

@@ -5,7 +5,4 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 src/assets_link
 src/posts/uncategorized/
-node_modules/
-newblog/.vuepress/.cache/
-newblog/.vuepress/.temp/
-newblog/.vuepress/dist/
+
