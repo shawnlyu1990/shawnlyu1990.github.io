@@ -69,55 +69,43 @@ PowerShell 执行策略是 Windows 系统内置的安全防护机制，通过限
 
 ## 解决方法
 
-::: important
-策略选择建议：
+1. 修改 PowerShell 执行策略（一劳永逸）
 
-- 开发环境推荐使用 `RemoteSigned`，平衡安全性与便利性。
-- 生产环境建议使用 `AllSigned`，确保所有脚本来源可信。
-- 避免使用 `Unrestricted` 策略，防止恶意代码执行。
-:::
+    ::: important
+    策略选择建议：
 
-1. 查看当前计算机上的现用执行策略，使用管理员身份打开 PowerShell 然后输入：`get-executionpolicy` 命令，通过回显可以看到当前的执行策略。
-
-    ```powershell
-    get-executionpolicy
-    ```
-
-    ::: note
-    返回值含义参考上表，根据实际需求修改执行策略。
+    - 开发环境推荐使用 `RemoteSigned`，平衡安全性与便利性。
+    - 生产环境建议使用 `AllSigned`，确保所有脚本来源可信。
+    - 避免使用 `Unrestricted` 策略，防止恶意代码执行。
     :::
 
-2. 修改当前用户的执行策略。
+    - 查看当前计算机上的当前生效的执行策略，使用管理员身份打开 PowerShell 然后输入以下命令。
 
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+        ```powershell
+        get-executionpolicy
+        ```
 
-    执行策略更改
-    执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170
-    中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?
-    [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”): y
-    ```
+        ::: note
+        返回值含义参考上表，根据实际需求修改执行策略。
+        :::
 
-    ::: note
-    `-Scope CurrentUser` 表示仅对当前用户生效。
-    :::
+    - 修改当前用户的执行策略。
 
-3. 修改本地计算机中所有用户（全局）的执行策略。
+        ```powershell
+        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
-    
-    执行策略更改
-    执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170
-    中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?
-    [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”): y
-    ```
+        执行策略更改
+        执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170
+        中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?
+        [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”): y
+        ```
 
-    ::: note
-    `-Scope LocalMachine` 需要管理员权限。
-    :::
+        ::: note
+        - `-Scope CurrentUser` 表示仅对当前用户生效。
+        - 如果需要对本机所有用户（全局）生效可以使用 `-Scope LocalMachine` 参数。（需要管理员权限）
+        :::
 
-4. 临时绕过策略（单次会话有效）
+2. 临时绕过策略（单次会话有效）
 
     在 PowerShell 中运行脚本时添加 `-ExecutionPolicy Bypass` 参数。
 
