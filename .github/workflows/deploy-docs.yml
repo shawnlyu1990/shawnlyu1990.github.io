@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -23,15 +22,17 @@ jobs:
       - name: 设置 pnpm
         uses: pnpm/action-setup@v6
 
-
       - name: 设置 Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 24
-          cache: pnpm
+          node-version: 26
+          # cache: pnpm
 
       - name: 安装依赖
         run: |
+          echo "Before: corepack => $(corepack --version || echo 'not installed')"
+          npm install -g corepack@latest
+          echo "After : corepack => $(corepack --version)"
           corepack enable
           pnpm ci
 
