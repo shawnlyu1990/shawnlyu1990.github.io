@@ -1,3 +1,4 @@
+
 name: 部署文档
 
 on:
@@ -13,35 +14,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
       - name: 设置 pnpm
-        uses: pnpm/action-setup@v4
-        # with:
-        #   version: 9
+        uses: pnpm/action-setup@v6
+
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
-          # cache: pnpm
+          node-version: 24
+          cache: pnpm
 
       - name: 安装依赖
         run: |
-          echo "Before: corepack => $(corepack --version || echo 'not installed')"
-          npm install -g corepack@latest
-          echo "After : corepack => $(corepack --version)"
           corepack enable
-          pnpm --version
-          pnpm install --frozen-lockfile
+          pnpm ci
 
       - name: 构建文档
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
+          NODE_OPTIONS: --max_old_space_size=4096
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll

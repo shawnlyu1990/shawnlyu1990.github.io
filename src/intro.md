@@ -1,9 +1,6 @@
 ---
-icon: Personal-Profile
+icon: circle-info
 cover: /assets/images/cover3.jpg
-article: false
-timeline: false
-comment: false
 ---
 
 # 介绍页
