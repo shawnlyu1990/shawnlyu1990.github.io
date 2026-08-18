@@ -2,13 +2,26 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ES2022"
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2022", "DOM"],
+    "types": ["vuepress/client"],
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
   },
   "include": [
     "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.vue"
+    "src/.vuepress/**/*.vue",
+    "src/.vuepress/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "vueCompilerOptions": {
+    "target": 3
+  }
 }
