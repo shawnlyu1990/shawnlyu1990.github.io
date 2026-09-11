@@ -39,8 +39,8 @@ export default navbar([
     ],
   },
   {
-    text: "收集箱",
-    icon: "/assets/blogicons/收件箱.png",
+    text: "工具箱",
+    icon: "/assets/blogicons/工具箱.png",
     children: [
       {
         text: "开源工具",
@@ -57,6 +57,26 @@ export default navbar([
         text: "在线工具 & 网站",
         icon: "/assets/blogicons/网站.png",
         children: [
+          {
+            text: "IT-Tools",
+            icon: "/assets/blogicons/IT_Tools.png",
+            link: "https://mrcharlin.com/it-tools/",
+          },
+          {
+            text: "CyberChef",
+            icon: "https://mrcharlin.com/cyberchef/images/cook_male-32x32.png",
+            link: "https://mrcharlin.com/cyberchef",
+          },
+          {
+            text: "VaultWarden",
+            icon: "/assets/blogicons/Vaultwarden.png",
+            link: "https://vaultwarden.mrcharlin.com/",
+          },
+          {
+            text: "PacketLens",
+            icon: "/assets/blogicons/liuliang.png",
+            link: "https://mrcharlin.com/packetlens",
+          },
           {
             text: "在线资源 & 工具",
             icon: "/assets/blogicons/工具.png",

@@ -79,15 +79,17 @@ const qrSrc = computed(
         <p class="donate-desc">{{ activeAmountInfo.desc }}</p>
       </div>
 
-      <transition name="donate-fade" mode="out-in">
-        <img
-          :key="qrSrc"
-          class="donate-qr"
-          :src="qrSrc"
-          :alt="`${activeMethod === 'wechat' ? '微信支付' : '支付宝'} - ${activeAmountInfo.label}`"
-          loading="lazy"
-        />
-      </transition>
+      <div class="donate-qr-wrap">
+        <transition name="donate-fade" mode="out-in">
+          <img
+            :key="qrSrc"
+            class="donate-qr"
+            :src="qrSrc"
+            :alt="`${activeMethod === 'wechat' ? '微信支付' : '支付宝'} - ${activeAmountInfo.label}`"
+            loading="lazy"
+          />
+        </transition>
+      </div>
     </div>
   </div>
 </template>
@@ -175,12 +177,18 @@ const qrSrc = computed(
   font-weight: 600;
 }
 
-.donate-qr {
+.donate-qr-wrap {
   flex-shrink: 0;
   width: 100%;
   max-width: 220px;
-  height: auto;
-  max-height: 440px;
+  /* 固定高度，避免切换二维码时容器塌陷导致鼠标移出悬浮区域 */
+  aspect-ratio: 1 / 1;
+}
+
+.donate-qr {
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   border-radius: 8px;
   background: #fff;

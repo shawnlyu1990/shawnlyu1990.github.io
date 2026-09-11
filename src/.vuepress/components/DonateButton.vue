@@ -3,10 +3,28 @@ import { ref } from 'vue'
 import DonateQRCode from './DonateQRCode.vue'
 
 const show = ref(false)
+let hideTimer: ReturnType<typeof setTimeout> | null = null
+
+function openPopover() {
+  if (hideTimer) {
+    clearTimeout(hideTimer)
+    hideTimer = null
+  }
+  show.value = true
+}
+
+// 延迟隐藏，避免二维码切换时容器尺寸抖动导致误判鼠标移出而闪退
+function closePopover() {
+  if (hideTimer) clearTimeout(hideTimer)
+  hideTimer = setTimeout(() => {
+    show.value = false
+    hideTimer = null
+  }, 200)
+}
 </script>
 
 <template>
-  <div class="donate-trigger" @mouseenter="show = true" @mouseleave="show = false">
+  <div class="donate-trigger" @mouseenter="openPopover" @mouseleave="closePopover">
     <button class="donate-trigger-btn" type="button">☕ 打赏作者</button>
     <transition name="donate-popover">
       <div v-if="show" class="donate-popover">
