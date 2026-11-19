@@ -4,7 +4,7 @@ title: /proc/[pid]/clear_refs 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/clear_refs 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/clear_refs 是一个只写文件，读取该文件永远返回 0 或无内容。它是 Linux 内核暴露给管理员和分析工具的一个特殊接口，用于重置（清空）指定进程的页表（Page Table）引用标志位或脏页（Dirty）标记。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者
@@ -101,21 +101,14 @@ Linux 内核在管理内存页（Page）时，会通过页表项（PTE）中的�
 CRIU 等工具需要将运行中的容器从机器 A 迁移到机器 B：
 
 1. 第一次先将进程的所有内存 dump 保存到磁盘。
-
 2. 执行 `echo 4 > /proc/[PID]/clear_refs` 重置 Soft-Dirty 标记。
-
 3. 在网络传输第一份快照的过程中，进程继续运行。
-
 4. 随后通过检查 `/proc/[PID]/pagemap` 中带有 Soft-Dirty 标记的页，仅把这段时间内被写过/修改过的「脏页」增量传输给机器 B，从而大幅缩短迁移造成的服务暂停时间（Downtime）。
 
 ::: caution 注意事项与权限要求
-
 1. **权限要求**：向该文件写入数据**必须具备 root 权限**（或者具备 `CAP_SYS_ADMIN` 权限），普通用户无权操作。
-
 2. **不可读（Write-Only）**：该文件只支持写入（如 `echo 1 > /proc/[pid]/clear_refs`），如果对它执行 `cat` 读取，通常会返回空或报错。
-
 3. **性能开销**：写入该文件会导致内核遍历进程的所有虚拟内存区域（VMA）和页表（Page Table）。对于内存占用极大（如数百 GB 内存）的进程，频繁写入 `clear_refs` 可能会带来暂时的 CPU 性能开销，生产环境需慎重评估。
-
 :::
 
 ## 参考资料

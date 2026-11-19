@@ -4,7 +4,7 @@ title: /proc/[pid]/auxv 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/auxv 文件
 # 当前页面内容描述。
-#description:
+description: /proc/[pid]/auxv 文件是 Linux 内核暴露给用户空间的一个关键接口，包含了内核在创建进程（通过 execve 系统调用）时传递给该进程的辅助向量（Auxiliary Vector，简称 auxv）数据。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

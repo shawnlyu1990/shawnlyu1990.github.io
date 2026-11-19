@@ -4,7 +4,7 @@ title: /proc/[pid] 目录
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid] 目录
 # 当前页面内容描述。
-description: 每一个运行的进程都存在一个 PID ，在 `/proc` 下对应存在一个 `/proc/[pid]` 目录。`/proc/[pid]` 目录下存储的是内核实时生成的特定进程的动态运行状态与配置接口（以伪文件和虚拟目录的形式呈现）。
+description: 每一个运行的进程都存在一个 PID ，在 /proc 下对应存在一个 /proc/[pid] 目录。/proc/[pid] 目录下存储的是内核实时生成的特定进程的动态运行状态与配置接口（以伪文件和虚拟目录的形式呈现）。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

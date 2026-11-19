@@ -4,7 +4,7 @@ title: /proc/[pid]/cgroup 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/cgroup 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/cgroup 文件是 Linux 内核暴露给用户空间的一个重要接口，用来显示指定进程（PID）当前所属的 cgroup（Control Groups，控制组） 层次结构与分组路径。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

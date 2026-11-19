@@ -41,6 +41,21 @@ $dark-code-tabs-bg: color.change($dark-code-highlight-bg, $alpha: 0.95);
   border-top-right-radius: 0;
 }
 
+// 文章列表中标题与摘要之间的间距
+.vp-article-item .vp-article-excerpt {
+  margin-top: 0.8em;
+}
+
+// 文章列表中摘要与底部信息行之间的间距
+.vp-article-item .vp-article-hr {
+  margin-block: 0.8em;
+}
+
+// 正文中有序、无序、任务列表的项目间距
+#markdown-content :is(ul, ol) > li + li {
+  margin-top: 0.4em;
+}
+
 // 定义字体
 @font-face {
   font-family: "MesloLGSNF";

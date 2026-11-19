@@ -4,7 +4,7 @@ title: /proc/[pid]/cmdline 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/cmdline 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/cmdline 是一个只读的伪文件。它是 Linux 内核暴露给用户空间的一个重要接口，记录了指定进程在启动时传递给它的完整命令行参数（Command-Line Arguments）。我们平时使用的 ps、top、htop 等系统监控工具，就是通过读取这个文件来展示进程的名称和启动命令的。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

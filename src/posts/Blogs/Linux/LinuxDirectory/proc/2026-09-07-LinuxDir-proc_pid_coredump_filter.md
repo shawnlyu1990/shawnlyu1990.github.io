@@ -4,7 +4,7 @@ title: /proc/[pid]/coredump_filter 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/coredump_filter 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/coredump_filter 是一个可读可写的伪文件。它是 Linux 内核（自 2.6.23 版本引入）暴露给用户空间的一个重要控制接口，专门用于定义指定进程在发生崩溃（Crash / Fatal Signal）并触发 Core Dump（核心转储）时，应该将哪些类型的内存映射区（Memory Mappings）写入转储文件中。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

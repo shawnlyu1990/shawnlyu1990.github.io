@@ -59,7 +59,7 @@ export default hopeTheme(
       // 如果不配置则默认使用 author.name 的值。
       // name: "昌霖学长",
       // 口号、座右铭或介绍语。
-      description: "一只人类",
+      description: "老一代能工智人",
       // 博主头像。
       // 如果不配置则默认使用 logo 的值。
       // avatar: "/assets/icon/avatar.png",
@@ -241,7 +241,10 @@ export default hopeTheme(
 
     // 在这里配置主题提供的插件
     plugins: {
-      blog: true,
+      // 摘要长度，单位为字数。设置为 0 表示不显示摘要。
+      blog: {
+        excerptLength: 0,
+      },
 
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！

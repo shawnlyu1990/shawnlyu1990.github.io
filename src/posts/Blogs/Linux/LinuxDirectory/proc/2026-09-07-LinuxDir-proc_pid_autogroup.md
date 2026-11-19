@@ -4,7 +4,7 @@ title: /proc/[pid]/autogroup 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/autogroup 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/autogroup 是 Linux 内核中用于进程自动分组（Autogroup）与 CPU 调度优化的文件接口。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者

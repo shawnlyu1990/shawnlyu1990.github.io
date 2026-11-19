@@ -4,7 +4,7 @@ title: /proc/[pid]/comm 文件
 # 当前页面的短标题，会在导航栏、侧边栏和路径导航中作为首选。
 shortTitle: /proc/[pid]/comm 文件
 # 当前页面内容描述。
-#description: 
+description: /proc/[pid]/comm 是一个可读可写的伪文件。它是 Linux 内核（自 2.6.33 内核版本起引入）暴露给用户空间的一个接口，专门用来记录和展示进程或线程的命令名称（Command Name / Executive Name）。
 # 当前页面的图标，建议填写
 icon: "/assets/blogicons/目录树.png"
 # 作者
